@@ -1,0 +1,2656 @@
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),  url('MyriadPro-Regular.otf')  format('opentype'),
+	     url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf')  format('truetype'), url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri';
+  src: url('Calibri.eot?#iefix') format('embedded-opentype'),  url('Calibri.woff') format('woff'), url('Calibri.ttf')  format('truetype'), url('Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	    overflow-x: hidden;
+}
+.scrollToTop{
+	width:40px; 
+	height:40px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:100px;
+	right:15px;
+	display:none;
+	background: url(../../../templates/tmpl_nightclub/images/arrow-up.png) no-repeat 4px 7px #fff;
+	border:1px solid #c7c7c7;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+div.sys-form-login-join .sys-flj-content a.bx-btn, div.sys-form-login-join .sys-flj-content a.bx-btn:link, div.sys-form-login-join .sys-flj-content a.bx-btn:hover, div.sys-form-login-join .sys-flj-content a.bx-btn:active, div.sys-form-login-join .sys-flj-content a.bx-btn:visited {
+    color: #fff;
+    padding: 20px;
+	line-height: 0px;
+}
+div.sys_ph_submenu_submenu div.act a {
+        color: #fff !important;
+}
+a.bx-btn, a.bx-btn:link, a.bx-btn:visited, a.bx-btn:active {
+    text-decoration: none;
+    color: #fff;
+    line-height: 18px;
+}
+.nightclub div.poll_block div.pollAnswerBlock, div.poll_block div.pollAnswerBlockView {
+    background-color: #000;
+}
+.nightclub .bx-gallery-icon-selector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgb(0, 102, 153);
+    border: 4px solid rgba(0, 102, 153, 0.6);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+nightclub .container
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+.popup_form_wrapper div.disignBoxFirst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: black;
+    overflow: hidden;
+    /*width: 435px;*/
+}
+
+a img, form {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+.nightclub h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.paginate_btn a, div.paginate_page a {
+    color: #b76caf;
+}
+div.paginate_btn a:hover, div.paginate_page a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.nightclub .bx-twig-unit-thumb-cont {
+    float: left;
+    display: table-cell;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    margin: 5px 10px 5px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+  .sys_mm.sys_main_page_width .flexnav li {
+	padding: 0 12px;
+  }
+.gsc-search-button
+{
+	background:#ff0000;
+	border:1px solid #ff0000;
+}
+.nightclub .gsc-tabHeader.gsc-tabhActive {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-top: 2px solid #ff0000;
+}
+.nightclub .ads_info_line {
+    margin-top: 3px;
+    color: #fff;
+}
+.popup_confirm_text {
+    max-width: 350px;
+    text-align: center;
+    color: #fff;
+}
+.nightclub .form_advanced_table .bx-form-combined .input_wrapper a {
+	    color: #b76caf;
+}
+.nightclub button.colorButton {
+    border: 1px solid #333 !important;
+}
+.forum_search_row>span {
+    margin-left: 20px;
+    color: #fff;
+}
+.forum_table_list .forum_search_cell_date {
+    line-height: 32px;
+    text-align: right;
+    color: #fff;
+}
+.form_advanced_table .bx-form-combined .input_wrapper .bx-btn
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    width: 96px;
+    overflow: hidden;
+}
+.admin_actions_panel select {
+    margin-top: 0px;
+    padding: 5px;
+	border: 1px solid #333;
+}
+.bx-def-font, .bx-def-font-inputs {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #323232;
+}
+div.extra_top_menu table.description {
+    border: 1px solid #333;
+    background-color: #000;
+    white-space: nowrap;
+    padding: 10px;
+}
+.sys_mc_wrapper.bx-def-margin-sec-leftright {
+  min-height: 700px;
+}
+.nightclub .bx-btn.bx-btn-small .sys-icon.users::before
+{
+	color:#fff;
+}
+.nightclub .bx-btn.bx-btn-small .sys-icon.envelope::before
+{
+	color:#fff;
+}
+.nightclub .bx-btn.bx-btn-small .sys-icon.shopping-cart::before
+{
+	color:#fff;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.content span.sub_item_img .sys-icon.users::before
+{
+	
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.content span.sub_item_img .sys-icon.shopping-cart::before
+{
+	
+}
+.siteStatUnit .sys-icon.shopping-cart::before {
+    content: "\f07a";
+    color: #fff;
+}
+.siteStatUnit .sys-icon.users::before 
+{
+	content: "\f0c0";
+	color: #fff;
+}
+.emojiPickerIconWrap {
+    display: block;
+    position: relative;
+}
+div.wall-snippet {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+div.sys_root_bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    width: 100vw;
+    height: 120%;
+    height: 120vh;
+    background: url(../../../templates/tmpl_nightclub/images/night_club.jpg);
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.nightclub div.sys_page_icon {
+    width: 60px;
+    text-align: center;
+}
+.nightclub .sys_page_bx_photos_albums_owner .page_column_last_width_28_1 {
+    width: 63.01%;
+}
+.nightclub .last
+{
+	background:none;
+}
+div.sys_root {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+    /*overflow: auto;*/
+}
+.nightclub .popup_form_wrapper .container {
+    -moz-box-shadow:;
+    -webkit-box-shadow:;
+    box-shadow: ;
+    background-color: #000;
+}
+.popup_form_wrapper .container {
+    border-color: #333;
+	width: auto !important;
+	padding-left:0px;
+	background:#000;
+	padding-right:0px;
+   /* float: right;*/
+}
+.nightclub .dbTopMenu .dbTopMenuPopup {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    font-size: 16px;
+    font-weight: bold;
+    left: 0px;
+}
+.nightclub div.sys-sm-item-submenu-cnt {
+     padding-left: 10px; 
+     padding-right: 10px; 
+}
+.sys_main_page_width {
+    max-width: 1190px;
+}
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: rgba(0,0,0,0.9);
+}
+.bx-btn .sys-icon {
+    margin-right: 10px;
+    font-size: 19px;
+    color: #fff;
+}
+.bx-twig-unit-line {
+    margin-top: 3px;
+    color: #fff;
+	margin-bottom:10px;
+}
+div.wall-content, div.wall-content-with-image {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    color: #fff;
+}
+#join_form .input_wrapper_submit .form_input_submit {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    line-height: 0px;
+}
+#login_box_form .input_wrapper_submit .form_input_submit {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    line-height: 0px;
+}
+.thumbnail_image .sys-icon.circle:before {
+    content: "\f111";
+	color:green;
+}
+div.sys-profile-cover-actions {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+}
+div.sys-sm-item-submenu div.sys-service-menu-profile {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: normal;
+}
+div.sys-sm-item-submenu div.sys-service-menu div.sys-sm-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bx-def-padding-leftright {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div.sys_ph_submenu_submenu a.sublinks, div.sys_ph_submenu_submenu a.sublinks:link, div.sys_ph_submenu_submenu a.sublinks:visited {
+    color: #b76caf;
+}
+div.wall-oii-description-extra-special {
+    font-weight: bold;
+    color: #323232;
+}
+div.wall-oii-description-extra-special, div.wall-oii-description-extra {
+    margin-top: 5px;
+    color: #fff;
+}
+div.sys_cal_browse {
+    text-align: center;
+    color: #fff;
+}
+div.sys-share-popup .rrssb-buttons {
+    height: auto;
+    padding: 5px;
+}
+.bx-def-bc-padding {
+    padding: 20px 20px 20px 20px;
+    background: rgba(0,0,0,0.9);
+}
+div.sys_footer {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+     padding-bottom: 0px; 
+}
+div.sys-form-login-join .sys-flj-content a:visited {
+     color: #b76caf; 
+}
+div.sys-form-login-join .sys-flj-content a, div.sys-form-login-join .sys-flj-content a:link, div.sys-form-login-join .sys-flj-content a:hover, div.sys-form-login-join .sys-flj-content a:active {
+    color: #b76caf;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.extra_data {
+    position: relative;
+    /* background-color: #E4E4E4; */
+    white-space: nowrap;
+    font-weight: bold;
+    background: #1a0000;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.popup_content {
+   background: #000;
+    overflow: hidden;
+}
+.nightclub .bx-def-font-inputs-captions {
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+}
+div.sys-service-menu div.sys-smi-search {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+	background: rgba(62,33,34,0.8);
+    border-color: #422323;
+    line-height: 27px;
+    overflow: hidden;
+	color:#767676;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.sys-profile-cover-cnt {
+    position: relative;
+    z-index: 1;
+}
+div.sys-profile-cover-bg-l2 {
+    z-index: 1;
+    bottom: 0px;
+    height: 100px;
+    background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1.0));
+    background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1.0));
+    background-image: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1.0));
+    background-image: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1.0));
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.0),rgba(0,0,0,1.0));
+}
+.sys_logo_wrapper
+{
+	float:left;
+}
+.search-div
+{
+	position: relative;
+	top: 33px;
+}
+div.sys-service-menu:hover div.sys-smi-search:hover {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+	background: rgba(62,33,34,0.8);
+    border-color: #422323;
+    line-height: 27px;
+    overflow: hidden;
+}
+div.sys-service-menu div.sys-sm-item.sys-smi-join, div.sys-service-menu div.sys-sm-item.sys-smi-profile {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    border: transparent;
+}
+div.sys-sm-item-submenu-cnt {
+     padding-left: 10px; 
+     padding-right: 10px; 
+}
+div.sys-service-menu div.sys-sm-item.sys-smi-join, div.sys-service-menu div.sys-sm-item.sys-smi-profile:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    border: transparent;
+}
+.nightclub .disignBoxFirst {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-color: rgba(0, 0, 0, 0.6);
+    background-color: #000;
+	border: 1px solid #0b0301;
+}
+.boxFirstHeader {
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    background: #1a0000;
+	font-family:"MyriadPro-Regular";
+	font-size:18px;
+    padding: 10px;
+}
+.disignBoxFirst .boxFirstHeader .dbTitle {
+    position: relative;
+    float: left;
+    color: #fff;
+	font-family:"MyriadPro-Regular";
+	font-size:18px;
+	font-weight: normal;
+}
+.bx-def-border {
+    border: none;
+}
+.bx-def-bh-margin {
+    margin: 0px 0px -3px 0px;
+}
+.bx-def-font-small {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+div.sys-loading-smog {
+    position: absolute;
+    z-index: 1101;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6,2,2,0.3);
+}
+div.sys_main_menu {
+    position: relative;
+    z-index: 2;
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+div.sys_main_logo {
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 0px;
+	min-height: 120px;
+}
+div#sys_search input {
+    margin: 0px;
+    padding: 2px 0px 5px 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.login-txt
+{
+	float: right;
+margin-right: -25px;
+}
+.login-txt li
+{
+	float: left;
+	background: url(../../../templates/tmpl_nightclub/images/top-line.png) no-repeat right;
+	padding-right: 15px;
+	margin-left: 10px;
+}
+.login-txt .last
+{
+	float:left;
+	margin-right:10px;
+	background: none;
+	padding-right: 15px;
+}
+.login-txt li
+{
+	color:#b76caf;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.nightclub .form_input_submit
+{
+	width:auto;
+}
+.form_advanced_table .bx-form-info .sys-icon {
+    color: #fff;
+    cursor: help;
+}
+.bx-btn {
+    position: relative;
+   border: 0px;
+	font-family: 'Calibri';
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+    background-color: #ff0000;
+    background-image: none;
+    filter: none;
+	border-radius:0px;
+    text-transform: uppercase;
+    text-shadow: none;
+    height: 28px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px;
+	line-height: 0px;
+}
+.bx-btn:hover {
+    position: relative;
+    border: 0px;
+	font-family: 'Calibri';
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+    background-color: #ff0000;
+    background-image: none;
+    filter: none;
+	border-radius:0px;
+    text-transform: uppercase;
+    text-shadow: none;
+    height: 28px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px;
+	line-height: 0px;
+}
+.nightclub #buttonArea .bx-btn {
+    position: relative;
+   border: 1px solid #ff0000;
+	font-family: 'Calibri';
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+    background-color: #ff0000;
+    background-image: none;
+    filter: none;
+	border-radius:0px;
+    text-transform: uppercase;
+    text-shadow: none;
+	width: 96px;
+    height: 28px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px;
+	line-height: 17px;
+}
+.nightclub #buttonArea .bx-btn:hover {
+    position: relative;
+    border: 1px solid #ff0000;
+	font-family: 'Calibri';
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+    background-color: #ff0000;
+    background-image: none;
+    filter: none;
+	border-radius:0px;
+    text-transform: uppercase;
+    text-shadow: none;
+	width: 96px;
+    height: 28px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px;
+	line-height: 17px;
+}
+.sys_cal_cell > u {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    margin: 0px 3px 14px 0px;
+    color: #323232;
+}
+.lcont_other div {
+    margin: 3px 0px;
+    color: #fff;
+}
+.nightclub .forums_index_short_cat a
+{
+	 color: #b76caf;
+}
+.nightclub .forums_index_short_forum a
+{
+	color: #b76caf;
+}
+.nightclub .forum_topic_caption a
+{
+	color: #b76caf;
+}
+body .disignBoxFirst {
+    line-height: normal;
+    position: relative;
+}
+.nightclub .sys_cal_cell > a > b {
+    color: #323232;
+}
+.nightclub .sys_cal_cell > a {
+    text-transform: none;
+    text-align: center;
+   color: #fff;
+}
+.bx_events_main_info_text {
+    width: 80%;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+.rss_item_desc {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+div.sys_cr_wrapper {
+    background: transparent;
+	border-top:1px solid #1b1b1b;
+}
+.nightclub .bottom-menu
+{
+	float:left;	
+}
+.bottom-menu span a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;	
+}
+.nightclub .copy
+{
+	float:right !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;	
+}
+@-moz-document url-prefix() { 
+.nightclub .copy
+{
+	float:right !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	margin-top:-50px;	
+}
+}
+.form_advanced_table {
+    border: none;
+    color: #fff;
+	font-family: 'Calibri';
+	font-size:14px;
+}
+.rss_read_more {
+    background-color: transparent;
+	height: 30px;
+	line-height: 30px;
+	text-transform: capitalize;
+	color: #fff;
+	border-top: 1px solid #0b0301;
+}
+.rss_read_more a {
+     color: #fff;
+}
+div.sys-service-menu div.sys-sm-item.sys-smi-join a.sys-sm-item, div.sys-service-menu div.sys-sm-item.sys-smi-profile span.sys-sm-item {
+    width: 40px;
+    position: relative;
+    top: 3px;
+}
+div.sys-service-menu div.sys-sm-item.sys-smi-search a.sys-sm-item
+{
+	width: 40px;
+    position: relative;
+    top: 0px;
+}
+.nightclub .rss_item_header a
+{
+	color:#b76caf;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.rss_item_info span
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999999;
+}
+.bx-def-hr {
+	display:none;	
+}
+h1, .bx-def-font-h1 {
+    font-size: 34px;
+    font-size: 34sp;
+    line-height: 40px;
+    line-height: 40sp;
+    color: #fff;
+}
+#f_breadcrumb {
+    position: relative;
+    background-repeat: repeat;
+    color: #fff;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.extra_data div.part_reduce .part_reduce_cnt, div.extra_top_menu table.fixed_menu div.popup_html div.extra_data div.part_reduce .part_reduce_indent {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+div.disignBoxFirst div.dbClose a {
+    text-decoration: none;
+    outline-style: none;
+    color: #d00;
+}
+.dbTopMenu .dbTmActive {
+    padding: 3px 15px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    background-color: #000;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+}
+.dbTopMenu:hover .dbTmActive:hover {
+	color:#fff;
+}
+.siteStatUnit a {
+    color: #b76caf;
+	font-family: 'Calibri';
+	font-size: 14px;
+}
+.input_wrapper .ui-slider .ui-slider-handle {
+    margin-top: -1px;
+    padding-left: 3px;
+    padding-right: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    width: 26px;
+}
+.siteStatUnit .sys-icon {
+    display: inline-block;
+    min-width: 16px;
+    margin-right: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+div.top_settings_block div.ordered_block_select span, div.top_settings_block div.per_page_block_select span {
+    line-height: 38px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+div.top_settings_block div.ordered_block div.ordered_block_select, div.top_settings_block div.ordered_block input, div.top_settings_block div.ordered_block label {
+    display: inline-block;
+    vertical-align: middle;
+    color: #b76caf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+div.top_settings_block div.ordered_block select, div.top_settings_block div.per_page_block select {
+    margin: 0px;
+    border: 1px solid #333;
+    color: #fff;
+}
+.form_input_text:focus, .form_input_textarea:focus, .form_input_email:focus, .form_input_url:focus, .form_input_date:focus, .form_input_datetime:focus, .form_input_password:focus, .form_input_number:focus, .form_input_slider:focus, .form_input_range:focus, .form_input_doublerange:focus, .form_input_select:focus {
+    border-color: #33c0f8;
+        background-color: #000;
+}
+div.wall-event-actions .bx-btn:hover {
+     background-color: #ff0000; 
+}
+.thumb_username a {
+	color: #b76caf;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.caption_section {
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+div.sub_design_box_head {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background: #1a0000;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 0 0 9px;
+}
+label {
+    position: relative;
+    top: 3px;
+	left:5px;
+}
+div.sub_design_box_body {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    position: static;
+    text-align: center;
+}
+.nightclub .gsc-tabHeader.gsc-tabhActive {
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-top: 2px solid #ff9900;
+    color: #FFF;
+}
+.lcont_top {
+    line-height: 28px;
+    padding-left: 78px;
+    background-color: #1a0000;
+}
+.lcont_top a.main_l, .lcont_top a.main_l:link, .lcont_top a.main_l:visited, .lcont_top a.main_l:hover, .lcont_top a.main_l:active {
+    color: #fff;
+}
+.quick_links_elink {
+    background-color: #F2F2FF;
+    position: relative;
+    border: 1px solid #1a0000;
+}
+.quick_links_elink_lcont {
+    width: 100%;
+    background-color: #1E1E1E;
+    border-top: 1px solid #1E1E1E;
+}
+div.devider {
+    font-size: 1px;
+    border-top: 1px solid #333;
+}
+.form_advanced_table .bx-form-caption {
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+}
+div.login_ajax_wrap div.sys-form-login-join, div.login_ajax_wrap div.sys-form-login-join input, div.login_ajax_wrap div.sys-form-login-join select, div.login_ajax_wrap div.sys-form-login-join textarea, div.login_ajax_wrap div.sys-form-login-join button {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+div.tsb_cnt_in {
+    border-top: 1px solid #060202;
+}
+div.tsb_cnt_out {
+    border-top: 1px solid #060202;
+}
+div.sys-bm-sub-item-selected a {
+    color: #fff;
+}
+.bx-def-margin-sec-top-auto {
+    margin-top: 10px;
+    color: #fff;
+}
+.form_input_text, .form_input_textarea, .form_input_email, .form_input_url, .form_input_date, .form_input_datetime, .form_input_password, .form_input_number, .form_input_slider, .form_input_range, .form_input_doublerange, .form_input_select {
+    border-color: #333;
+    background-color: rgba(0,0,0,0.05);
+    color: #fff;
+}
+h2, .bx-def-font-h2 {
+    color: #b76caf;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.nightclub .ads_info_line a {
+    margin-top: 3px;
+    color: #b76caf;
+}
+.nightclub .bx-twig-unit-line a {
+    margin-top: 3px;
+    color: #b76caf;
+}
+.quick_links_elink_pic .sys-icon.shopping-cart:before {
+    content: "\f07a";
+    color: #fff;
+}
+.quick_links_elink_pic .sys-icon.wrench:before {
+    content: "\f0ad";
+    color: #fff;
+}
+
+.nightclub input.gsc-input {
+    padding: 1px 6px;
+    border: 1px solid #333;
+    width: 99%;
+}
+.bx-def-bc-margin {
+    margin: 0px;
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 13px;
+    line-height: 21px;
+    padding: 10px;
+}
+div.extra_top_menu div.sys_cr_wrapper div.sys_cr 
+{
+	margin-bottom:50px;
+}
+div.sys_sub_menu {
+    z-index: 4;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 0;
+    color: #323232;
+}
+div.sys_page_icon .img_submenu.sys-icon {
+    font-size: 24px;
+    color: #fff;
+}
+div.sys_page_submenu_bottom a.sys_page_header_submenu, div.sys_page_submenu_bottom .sys-icon, div.sys_page_submenu a.sys_page_header_submenu, div.sys_page_submenu .sys-icon {
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+.cls_res_info_nowidth {
+    margin-left: 80px;
+    color: #fff;
+}
+.dbBottomMenu {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 2px;
+    background-color: transparent;
+    padding: 0px 9px 0px 9px;
+    text-decoration: none;
+    margin: 1px;
+}
+.nightclub .moreMembers
+{
+	color: #b76caf;
+}
+.nightclub .backMembers
+{
+	color: #b76caf;
+}
+.sys_cal_table th
+{
+	color:#fff;
+}
+.bx_wmap_part a .sys-icon
+{
+	color: #b76caf;
+}
+.bx-def-bc-margin p {
+	margin-bottom:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 18px;	
+}
+.bx-def-bc-margin b
+{
+	color: #b76caf;
+	font-size: 15px;
+}
+.quick_links_elink_pic {
+    position: absolute;
+    left: 15px;
+    top: 41px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+}
+.sys_cal_wrapper_mini .sys_cal_cell > u {
+    margin-bottom: 0px;
+    color: #323232;
+}
+.nightclub .sys_call_today u
+{
+	color:#fff;
+}
+.bx-def-font-large {
+    font-size: 16px;
+    color: #fff;
+}
+.bx_sys_file_upload_wrapper {
+    border: 1px solid #333;
+    background-color: transparent;
+}
+div.bx_files_album_unit .sys_album_item, div.bx_files_album_unit .sys_album_item_empty {
+     /*width: auto; */
+}
+.sys_album_item_empty {
+     background-color: transparent; 
+}
+.bx_sys_file_upload_wrapper .form_input_file {
+    position: static;
+    overflow: hidden;
+    color: #fff;
+}
+.form_advanced_table .bx-form-block-header .bx-form-caption {
+    margin: 0px;
+    padding: 10px 5px;
+    text-align: center;
+    background: #fff;
+    color: #fff;
+    background: #1a0000;
+}
+.sys_cal_table th
+{
+	color:#fff;
+}
+.content
+{
+	color: #848080;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.menu_item_active {
+    background-color: #000;
+}
+.bx-btn-area {
+    text-align: center;
+    padding: 10px;
+}
+.clr3
+{
+	word-wrap: break-word;
+}
+.nightclub .emojiPickerIconWrap input {
+    padding-right: 39px;
+	width: 99% !important;
+}
+div.page_column_last .page_block_container {
+    margin-right: -12px;
+	position: relative;
+    z-index: 0;
+}
+div.wall-divider-cnt {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #999;
+}
+div.wall-event div.wall-event-owner div.thumbnail_block {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 2px;
+    border: 2px solid #333;
+    border-radius: 64px;
+    -moz-border-radius: 64px;
+    -webkit-border-radius: 64px;
+    background-color: #000;
+}
+div.wall-divider:before, div.wall-divider-today:before, div.wall-event:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 36px;
+    width: 2px;
+    height: 100%;
+    background: #333;
+}
+.nightclub div.sys-profile-cover-actions .bx-btn {
+    background-color: #ff0000;
+    outline: none;
+    width: 100%;
+	line-height: 18px;
+}
+.nightclub div.sys-profile-cover-actions .bx-btn:hover {
+    background-color: #ff0000;
+    outline: none;
+    width: 100%;
+}
+.nightclub .fileStatCount a
+{
+	    color: #b76caf;
+}
+.nightclub .fileStatAdd a
+{
+	color: #b76caf;
+}
+.sys_cal_cell>a>b {
+    color: #fff;
+}
+.sys_cal_today {
+    background-color: #ff0000;
+}
+.nightclub .sys_cal_today u {
+    color:#fff;
+}
+.disignBoxFirst .boxFirstHeader .dbTopMenu, .disignBoxFirst .boxFirstHeader .caption_item {
+    position: relative;
+    float: right;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #fff;
+}
+.nightclub .one_tag a
+{
+	font-size: 17px;
+    color: #b76caf;
+}
+.form_advanced_table .bx-btn.form_input_multiply_remove {
+    float: left;
+}
+.nightclub .dbTopMenuPopup .dbTopMenuPopupCnt {
+        padding: 10px 15px 10px 15px;
+    background: #000;
+}
+table.cmt-balloon {
+    table-layout: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000;
+    border: 1px solid #333;
+}
+div.thumbnail_image p.thumbnail_image_letter, div.thumbnail_image p.thumbnail_image_letter2 {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #5F5B5B;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+.nightclub div.sys-service-menu .nightclub div.sys-sm-item {
+    position: relative;
+    display: inline-block;
+    height: 37px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    /*-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;*/
+    background: transparent;
+    border-color: transparent;
+    line-height: 32px;
+    overflow: hidden;
+    color: #767676;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nightclub div.sys-service-menu:hover .nightclub div.sys-sm-item:hover {
+    position: relative;
+    display: inline-block;
+    height: 37px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: transparent;
+    line-height: 32px;
+    overflow: hidden;
+    color: #767676;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.sys_page_header {
+    max-width: 680px;
+    white-space: nowrap;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #B7B7B7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.extra_top_menu table.fixed_menu {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #333;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.nightclub div.sys-service-menu div.sys-sm-item .sys-sm-profile {
+    position: relative;
+    display: inline-block;
+    height: 37px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background: transparent;
+    border-color: transparent;
+    line-height: 35px;
+    /*overflow: hidden;*/
+    color: #767676;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	left: 21px;
+}
+
+div.sys_bc a, div.sys_bc a:link, div.sys_bc a:visited, div.sys_bc a:hover, div.sys_bc a:active {
+    text-transform: capitalize;
+    color: #b76caf;
+}
+.nightclub div.sys-service-menu .nightclub div.sys-smi-search {
+	border: 1px solid #402223;
+    background: rgba(64,34,35,0.5);
+	border-radius:0px;
+}
+.nightclub div.sys-service-menu .nightclub div.sys-smi-search:hover {
+	border: 1px solid #402223;
+    background: rgba(64,34,35,0.5);
+	border-radius:0px;
+}
+.nightclub .sys-smi-search-simple
+{
+	display:none !important;
+}
+.sys-sm-item.sys-smi-search:focus {
+    border: 1px solid #ff0000;
+    border-radius: 0px;
+}
+.nightclub div.sys-service-menu:focus .nightclub div.sys-sm-search:focus  {
+	border: 1px solid #402223;
+    background: rgba(64,34,35,0.5);
+}
+.clear
+{
+	clear:both;
+}
+div.sys-service-menu div.sys-sm-item .sys-sm-profile .sys-smp-thumbnail {
+/*display:block;	*/
+}
+div.sys-service-menu div.sys-sm-profile span.sys-smp-title {
+    width: 89px;
+    overflow: hidden;
+    font-weight: bold;
+    text-overflow: ellipsis;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#b76caf;
+	font-size:15px;
+}
+div.sys-service-menu div.sys-sm-profile span.sys-smp-title {
+    width: 100%;
+    overflow: visible ;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b76caf;
+    font-size: 15px;
+	text-transform: uppercase;
+	position: relative;
+    left: -7px;
+}
+div.sys_bc_wrapper {
+    background-color: rgb(250,250,250);
+    background-color: transparent;
+}
+div.sys_bc div.bc_divider {
+    display: inline-block;
+    position: relative;
+    width: 7px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+div.sys_bc div.bc_unit {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+div.sys_bc {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow-x: auto;
+	overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-left: 2px;
+	margin-top: -5px;
+	margin-bottom: -15px;
+}
+.popup_form_wrapper div.disignBoxFirst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: black;
+    overflow: visible;
+}
+div.sys_sm {
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+.search {
+	text-indent:-999999;
+}
+.sys_album_info .sys_album_title a {
+     color: #b76caf; 
+}
+div.cmt-post-reply table.cmt-balloon {
+    background-color: #1e1e1e;
+}
+div.cmt-post-reply textarea, div.cmt-post-reply-to textarea, div.cmt-body textarea {
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+	border: 1px solid #333;
+}
+.bx-form-info float_info
+{
+	color:#323232;
+}
+a, a:link, a:visited, a:active {
+    color: #b76caf;
+	/*text-transform: capitalize;*/
+}
+.quick_links_elink_pic .sys-icon, .quick_links_elink_pic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 48px;
+}
+.forum_icon_title_desc.forum_icon_medium>a {
+    padding-top: 5px;
+    color: #b76caf;
+}
+.forum_icon_title_desc.forum_icon_medium>a, .forum_icon_title_desc.forum_icon_medium>span {
+    padding-left: 84px;
+}
+.nightclub .bx-def-font-grayed {
+    color: #fff;
+	margin-bottom:5px;
+}
+.sys-icon.smile-o:before {
+    content: "\f118";
+	color: #b76caf;
+}
+div.wnd_content {
+    background: #000;
+    border: 1px solid #333;
+}
+div.wnd_box {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #333;
+    background-color: white;
+}
+fieldset.form_field_row {
+    position: relative;
+    left: 100px;
+    border: none;
+    padding: 0;
+    text-align: left;
+    left: 0px;
+}
+fieldset.form_field_row legend {
+    font-weight: bold;
+    padding: 0;
+    color: #fff;
+}
+.nightclub div.wnd_title {
+    height: 37px;
+     border-bottom: 1px solid #333; 
+    overflow: hidden;
+    /* background-image: url(http://192.168.1.39/karthik/dolphin//modules/boonex/forum/layout/base_en/img/wnd_title_bg.gif); */
+    background-repeat: no-repeat;
+    background-color: #E9F0F4;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    background: #1a0000;
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    padding: 10px;
+}
+.nightclub div.wnd_title h2 {
+    text-align: left;
+    margin: 1px 3px 3px 10px;
+	color:#fff;
+	font-size:18px;
+}
+.profile_block a
+{
+	text-transform:capitalize;
+}
+div.sys-sm-item-submenu div.sys-service-menu div.sys-sm-link i.sys-icon {
+    width: 32px;
+    margin-right: 10px;
+    font-size: 32px;
+    color: #b76caf;
+}
+div.message_block .sys-icon {
+    display: inline-block;
+    min-height: 11px;
+    min-width: 11px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #b76caf;
+}
+.sys-icon.envelope:before {
+    content: "\f0e0";
+    color: #b76caf;
+}
+.sys-icon.group:before, .sys-icon.users:before {
+    content: "\f0c0";
+	color: #b76caf;
+}
+.sys-icon.bell:before {
+    content: "\f0f3";
+	color: #b76caf;
+}
+.sys-icon.shopping-cart:before {
+    content: "\f07a";
+	color: #b76caf;
+}
+.sys-icon.wrench:before {
+    content: "\f0ad";
+	color: #b76caf;
+}
+.sys-icon.plus:before {
+    content: "\f067";
+	color: #b76caf;
+}
+div.sys_page_actions a.menuLink {
+    display: inline-block;
+    width: 32px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: #b76caf;
+}
+.bx-form-input-emoji {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    height: 38px;
+    line-height: 38px;
+    color: #b76caf;
+    font-size: 28px;
+}
+.sys-icon {
+    font-family: "sys-user",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /*color: #b76caf;*/
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: #1a0000;
+    font-weight: normal;
+    color: #fff;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #aaa;
+    background: #1e1e1e;
+    font-weight: normal;
+    color: #fff;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: text;
+    color: #fff;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+    color: #fff;
+}
+#bx_forum_search_input {
+    padding: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    /*background-color: transparent;*/
+    color: #fff;
+}
+div.search_field {
+    color: #fff;
+}
+.forum_form_field {
+    padding: 5px;
+    background-color: #000;
+	border:1px solid #333;
+	color:#fff;
+}
+.nightclub .sys_msg_pending_approval {
+    margin-bottom: 0px;
+    background-color: #fcc;
+    line-height: 30px;
+    text-align: center;
+	display:none;
+    color: #323232;
+}
+.bx-btn.bx-btn-small .sys-icon {
+    font-size: 15px;
+    color: #fff;
+}
+div.wall-oi-item-cnt {
+    position: relative;
+    background-color: #1E1E1E;
+	border-top: 1px solid #1E1E1E;
+    overflow: hidden;
+}
+div.wall-oii-image-wrp {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #1E1E1E;
+    text-align: center;
+}
+div.wall-caption, div.wall-caption-withicon {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    color: #fff;
+}
+li.cmt-replacement {
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    text-indent: 10px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #fff;
+}
+div.sys_ph_submenu_submenu {
+    position: absolute;
+    display: none;
+    background-color: #000;
+    border: 1px solid #333;
+}
+div.sys_ph_submenu_submenu div.act {
+    background-color: #292929;
+    color: rgba(0, 0, 0, 0.7);
+}
+.boxContent {
+    background: rgba(0,0,0,0.9);
+	color: #fff;
+}
+.dbTopMenuPopup .active {
+    color: #fff;
+    cursor: pointer;
+}
+.actionsBlock .actionItem .bx-btn {
+    float: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+select, select.no, input, input.no, textarea, textarea.no, button {
+    background: #000;
+    color: #fff;
+}
+.bx-def-margin-sec-top {
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+.actionsBlock .actionItem .bx-btn .sys-icon.plus:before {
+    content: "\f067";
+    color: #fff;
+}
+.nightclub .form_advanced_table .bx-btn.form_input_multiply_add, .nightclub .form_advanced_table .bx-btn.form_input_multiply_other, .nightclub .form_advanced_table .bx-btn.form_input_multiply_remove, .nightclub .form_advanced_table .bx-btn.form_input_multiply_select {
+     -webkit-appearance: none;
+    /*float: none;*/
+    margin-left: auto;
+    margin-right: 10px;
+    width: auto;
+    height: 28px;
+    padding: 5px;
+    line-height: 17px;
+	
+}
+.gg
+{
+	margin-bottom:40px;
+}
+.sys_album_unit {
+    position: relative;
+    background-color: #1e1e1e;
+    -webkit-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.3);
+    -moz-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.3);
+    box-shadow: 0 1px 3px rgba(51,51,51,0.3);
+    /* color: #ff0000; */
+}
+div.wall-outline div.wall-load-more .bx-btn {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+   /* width: 85px;*/
+    height: 28px;
+    padding: 5px;
+    line-height: 20px;
+}
+.nightclub input.bx-btn {
+    -webkit-appearance: none;
+    /*float: none;*/
+    margin-left: auto;
+        margin-right: 10px;
+    /*width: 96px;*/
+    height: 28px;
+    padding: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    /*line-height: 20px;*/
+}
+.nightclub input.bx-btn:hover {
+     -webkit-appearance: none;
+    height: 28px;
+    padding: 5px;
+}
+.nightclub .form_advanced_table .bx-form-info .sys-icon {
+    color: #fff;
+    cursor: help;
+}
+.nightclub .sys_page_profile .page_column_last_width_71_9 {
+    width: 77.9%;
+}
+div.wall-event-cnt {
+    position: relative;
+    min-height: 32px;
+    margin: 0px 0px 0px 85px;
+    padding: 10px 0px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #1E1E1E;
+    color: #666;
+}
+.nightclub div.wall-oii-actions .bx-btn:hover {
+        background-color: #ff0000;
+}
+.forum_centered_msg {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.nightclub div.wall-event-actions .bx-btn {
+    position: relative;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    height: 24px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    background-color: transparent;
+    border-color: #333;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 11px;
+    color: #666;
+	width: auto;
+}
+.form_advanced_table .sys-icon.multiply_add_button, .form_advanced_table .sys-icon.multiply_remove_button, .form_advanced_table .sys-icon.multiply_other_button, .form_advanced_table .sys-icon.reload_button, .form_advanced_table .bx-form-info .sys-icon, .form_advanced_table .bx-form-error .sys-icon {
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+    top: 0px;
+}
+.nightclub div.wall-oii-actions .bx-btn {
+    height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    background-color: transparent;
+    border-color: #333;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 11px;
+	width: auto;
+}
+.nightclub div.sys-service-menu a.sys-sm-item:active, .nightclub div.sys-service-menu div.sys-sm-item.sys-smi-profile:active, .nightclub div.sys-service-menu div.sys-sm-item.sys-smi-profile:active span.sys-sm-item, .nightclub div.sys-service-menu div.sys-sm-item.sys-smi-profile:hover img.sys-smp-thumbnail {
+     border-color: transparent; 
+    color: rgba(255, 255, 255, 1.0);
+}
+.nightclub div.wall-oii-actions:hover .bx-btn:hover {
+    height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    background-color: #f0000;
+    border-color: #f0000;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 11px;
+	width: auto;
+}
+.form_advanced_table .bx-form-block-header, .form_advanced_table .bx-form-block-headers {
+    background-color: rgba(0,0,0,0.0);
+    margin-top: 8px;
+}
+.nightclub #join_form .input_wrapper_submit .form_input_submit {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    max-width: 467px;
+	line-height:2px;
+}
+
+.nightclub .scrollToTop{
+	width:40px; 
+	height:40px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:50px;
+	right:15px;
+	display:none;
+	background: url(../../../templates/tmpl_nightclub/images/arrow-up.png) no-repeat 5px 7px #000;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+.nightclub div.sys-form-login-join .sys-flj-content a.bx-btn, .nightclub div.sys-form-login-join .sys-flj-content a.bx-btn:link, div.sys-form-login-join .sys-flj-content a.bx-btn:hover, .nightclub div.sys-form-login-join .sys-flj-content a.bx-btn:active, .nightclub div.sys-form-login-join .sys-flj-content a.bx-btn:visited {
+    color: #fff;
+	width: 100%;
+	padding: 20px;
+    line-height: 0px;
+}
+div#tabs-login .dbTopMenu, div#tabs-join .dbTopMenu {
+    text-align: right;
+    color: #d00;
+}
+.bx-def-bc-margin p span {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff !important;
+}
+.nightclub #login_box_form .input_wrapper_submit .form_input_submit {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+	padding: 20px;
+    line-height: 2px;
+}
+
+.nightclub div.shoutbox_wrapper {
+    position: relative;
+    height: 400px;
+    background-color: #1e1e1e;
+    padding-top: 5px;
+    border: 1px solid #333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width: 100%;
+}
+.votes_gray_small, .votes_active_small {
+    height: 20px;
+}
+.bx_sites_block_view .title {
+    color: #b76caf;
+}
+div.sys-service-menu div.sys-sm-profile i.sys-icon, div.sys-service-menu div.sys-sm-profile img.sys-smp-thumbnail {
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+     border-color: #333;
+}
+div.sys-service-menu:hover div.sys-sm-profile:hover i.sys-icon, div.sys-service-menu:hover div.sys-sm-profile:hover img.sys-smp-thumbnail:hover {
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-color: #333;
+}
+.nightclub .container
+{
+	width: 1180px;
+}
+li.li_last_round.last {
+    margin-bottom: -20px;
+}
+@media (max-width:767px)
+{
+	.flexnav li.last ul {
+    left: 0px !important;
+    position: absolute;
+    top: 45px;
+}
+.flexnav li.last ul ul {
+    left: 0px !important;
+    position: absolute;
+}
+
+	div.sys_page_header {
+    max-width: 100%;
+    white-space: nowrap;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #B7B7B7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+	div.sys-service-menu div.sys-smi-search {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+	background: rgba(62,33,34,0.8);
+    border-color: #422323;
+    line-height: 27px;
+    overflow: hidden;
+	color:#767676;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.sys-service-menu:hover div.sys-smi-search:hover {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+	background: rgba(62,33,34,0.8);
+    border-color: #422323;
+    line-height: 27px;
+    overflow: hidden;
+}	
+.nightclub .container
+{
+	width: 100%;
+}
+
+.popup_form_wrapper .container {
+    -moz-box-shadow: ;
+    -webkit-box-shadow: ;
+    box-shadow: ;
+    background-color: #000;
+    position: relative;
+    left: 0px;
+}
+.nightclub .bx-twig-unit-thumb-cont {
+    float: left;
+    display: inline-flex;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 5px 10px 5px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+	div.sys-service-menu div.sys-sm-item.sys-smi-search {
+    display: block;
+	height:37px;
+}
+	div.sys_cr_wrapper div.sys_cr {
+    overflow-y: visible;
+	overflow-x: visible;
+	white-space: normal;
+	text-align: center;
+}
+div.sys_cr_wrapper div.sys_cr div.bottomLinks, div.sys_cr_wrapper div.sys_cr div.bottomCpr {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.nightclub .copy {
+    float: left !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+	margin-top:0px;
+}
+	.dbContent img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.nightclub .flexnav li ul li ul {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background: #1a0000;
+}
+.nightclub .flexnav li ul li {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    background: none;
+}
+.nightclub .flexnav li {
+    position: relative;
+    list-style: none;
+    float: none;
+    display: block;
+    background: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+div.sys-service-menu div.sys-sm-item .sys-sm-profile .sys-smp-thumbnail {
+display: block;	
+}
+div.sys-service-menu div.sys-sm-item.sys-smi-join span.sys-smp-title, div.sys-service-menu div.sys-sm-item.sys-smi-profile span.sys-smp-title, div.sys-service-menu div.sys-sm-item.sys-smi-profile span.sys-sm-item {
+    display: inline-block;
+}
+.sys-smp-title .bx-def-margin-sec-left
+{
+}
+
+.nightclub div.sys-service-menu div.sys-sm-item {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-color: transparent;
+    line-height: 27px;
+    overflow: visible;
+    color: #767676;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
+.nightclub div.sys-service-menu div.sys-sm-item:hover {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-color: transparent;
+    line-height: 27px;
+    overflow: visible;
+    color: #767676;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
+.mobile-set
+{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -15px;
+	left: -18px;
+}
+div.sys_root_bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    width: 100vw;
+    height: 120%;
+    height: 120vh;
+    background: url(../../../templates/tmpl_nightclub/images/night_club.jpg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+.nightclub div.sys-service-menu div.sys-sm-item.sys-smi-search-simple {
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    background: #43272a;
+	display: none;
+}
+.nightclub div.sys-service-menu div.sys-sm-profile span.sys-smp-title {
+    width: 100%;
+    overflow: visible;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b76caf;
+    font-size: 15px;
+    text-transform: uppercase;
+    top: -33px;
+	left: 30px;
+	z-index:99999;
+}
+.nightclub div.sys-service-menu div.sys-sm-item .sys-sm-profile {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    /*background: transparent;*/
+    border-color: transparent;
+    line-height: 32px;
+    overflow: visible;
+    color: #767676;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+	margin-left: 5px;
+}
+div.sys-service-menu div.sys-sm-profile i.sys-icon {
+    line-height: 32px;
+    text-align: center;
+    display: block;
+}
+	.login-txt {
+    float: none;
+    text-align: center;
+    width: 149px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nightclub .sys_mc .page_column {
+    float: none;
+    width: 100% !important;
+}
+.sys_logo_wrapper {
+    float: none;
+	text-align:center;
+	margin-bottom: 25px;
+}
+div.sys-service-menu-wrp {
+	position: absolute;
+    top: 0px;
+	left: 0px;
+	height: 60px;
+	margin-top: -45px;
+	right: 0px;
+	width: 165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flexnav {
+    *zoom: 1;
+    margin: 0px 0px 0px -36px;
+    width: 100%;
+    background: none;
+    display: block;
+}
+.flexnav li a {
+    position: relative;
+    display: block;
+    padding: 0px;
+    z-index: 2;
+    overflow: hidden;
+    color: #ffffff;
+    font: 15px Myriad pro;
+    height: 45px;
+    line-height: 50px;
+    z-index: 0;
+}
+.search-div {
+    position: relative;
+    top: 38px;
+}
+.menu-button {
+    position: relative;
+    display: block;
+    padding: 13px 0.96em;
+    background: #1a0000;
+    color: #ffffff;
+    cursor: pointer;
+    font: 18px Myriad pro;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.nightclub div.sys_mm div.sys_mm_cnt {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flexnav {
+    *zoom: 1;
+    margin: -13px 0px 0px 0px;
+    width: 100%;
+    background: rgba(65, 65, 65, 0.5);
+}
+.flexnav li ul {
+    width: 100%;
+	display: none;
+	background: #1a0000;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.flexnav li ul li {
+	padding: 0px;
+}
+.flexnav .touch-button .navicon {
+  position: relative;
+  top: 1.5em;
+  visibility: visible;
+  font-size: 12px;
+  color: #666;
+}
+.nightclub div.sys_main_logo {
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 0px;
+    height: 220px;
+}
+.nightclub .dbTopMenu .dbTopMenuPopup {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    font-size: 16px;
+    font-weight: bold;
+    left: -53px;
+}
+}
+
+@media (min-width:1200px)
+{
+.flexnav .touch-button {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 51px;
+  display: block;
+  background: #acaca1;
+  background: rgba(0, 0, 0, 0);
+  filter:alpha(opacity=25);
+  text-align: center;
+}
+.flexnav .touch-button .navicon {
+  position: relative;
+  top: 1.5em;
+  visibility: hidden;
+  font-size: 12px;
+  color: #666;
+}
+}
+@media (min-width: 801px) and (max-width: 829px)
+{
+	.flexnav li.last ul {
+    left: 20px !important;
+    position: absolute;
+}
+	.flexnav li.last ul ul {
+    left: auto !important;
+    position: absolute;
+}
+	.menu-button {
+    position: relative;
+    display: block;
+    padding: 13px 0.96em;
+    background: #1a0000;
+    color: #ffffff;
+    cursor: pointer;
+    font: 18px Myriad pro;
+    text-transform: uppercase;
+	display:none;
+}
+	.flexnav li ul {
+    width: 162px;
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 10px;
+    background: #1a0000;
+    position: absolute;
+    z-index: 999999999;
+}
+	.nightclub .container
+	{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    background: url(../../../templates/tmpl_nightclub/images/menu-line.png) no-repeat right;
+    padding: 0 12px;
+    width: 20%;
+}
+.flexnav li a {
+    border: 0 none;
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.flexnav li a:hover {
+	color:#b76caf;
+	text-decoration:none;
+}
+.flexnav li li .touch-button .navicon {
+    top: 0.9em;
+    visibility: hidden;
+}
+.flexnav {
+    *zoom: 1;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background: none;
+    /*display: inline-flex;*/
+}
+.nightclub .flexnav li ul li ul {
+    position: absolute;
+    left: 152px !important;
+	top: -10px;
+}
+.flexnav .touch-button .navicon {
+    position: relative;
+    top: 1.5em;
+     visibility: visible; 
+    font-size: 12px;
+    color: #666;
+}
+}
+@media (min-width: 830px) and (max-width: 979px)
+{
+	.flexnav li ul li a {
+    display: block;
+    background: none;
+    height: 36px;
+    padding-left: 10px;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-top: 1px solid #311527;
+}
+	.flexnav li.last ul {
+    left: 20px !important;
+    position: absolute;
+}
+	.flexnav li.last ul ul {
+    left: 3px !important;
+    position: absolute;
+}
+	.menu-button {
+    position: relative;
+    display: block;
+    padding: 13px 0.96em;
+    background: #1a0000;
+    color: #ffffff;
+    cursor: pointer;
+    font: 18px Myriad pro;
+    text-transform: uppercase;
+	display:none;
+}
+	.flexnav li ul {
+    width: 162px;
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 10px;
+    background: #1a0000;
+    position: absolute;
+    z-index: 999999999;
+	margin-top:-9px;
+}
+	.nightclub .container
+	{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    background: url(../../../templates/tmpl_nightclub/images/menu-line.png) no-repeat right;
+    padding: 0 12px;
+    width: 20%;
+}
+.flexnav li a {
+    border: 0 none;
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.flexnav li a:hover {
+	color:#b76caf;
+	text-decoration:none;
+}
+.flexnav li li .touch-button .navicon {
+    top: 0.9em;
+    visibility: hidden;
+}
+.flexnav {
+    *zoom: 1;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background: none;
+    /*display: inline-flex;*/
+}
+.nightclub .flexnav li ul li ul {
+    position: absolute;
+    left: auto;
+	top: 0px;
+}
+.flexnav .touch-button .navicon {
+    position: relative;
+    top: 1.5em;
+     visibility: visible; 
+    font-size: 12px;
+    color: #666;
+}
+}
+@media (min-width: 980px) and (max-width: 1190px)
+{
+	.flexnav li ul li a {
+    display: block;
+    background: none;
+    height: 36px;
+    padding-left: 10px;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-top: 1px solid #311527;
+}
+	.flexnav li.last ul {
+    left: 20px !important;
+    position: absolute;
+}
+	.flexnav li.last ul ul {
+    left: 3px !important;
+    position: absolute;
+}
+	.menu-button {
+    position: relative;
+    display: block;
+    padding: 13px 0.96em;
+    background: #1a0000;
+    color: #ffffff;
+    cursor: pointer;
+    font: 18px Myriad pro;
+    text-transform: uppercase;
+	display:none;
+}
+	.flexnav li ul {
+    width: 162px;
+    display: none;
+    padding-top: 0px;
+	margin-top: -9px;
+    padding-bottom: 0px;
+    padding: 10px;
+    background: #1a0000;
+    position: absolute;
+    z-index: 999999999;
+}
+	.nightclub .container
+	{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    background: url(../../../templates/tmpl_nightclub/images/menu-line.png) no-repeat right;
+    padding: 0 12px;
+    width: 20%;
+}
+.flexnav li a {
+    border: 0 none;
+    font-family: "MyriadPro-Regular";
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.flexnav li li .touch-button .navicon {
+    top: 0.9em;
+    visibility: hidden;
+}
+.flexnav {
+    *zoom: 1;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background: none;
+    /*display: inline-flex;*/
+}
+.nightclub .flexnav li ul li ul {
+    position: absolute;
+    left: auto;
+	top: 0px;
+}
+.flexnav .touch-button .navicon {
+    position: relative;
+    top: 1.5em;
+     visibility: visible; 
+    font-size: 12px;
+    color: #666;
+}
+}
+@media (min-width: 768px) and (max-width: 800px)
+{
+	.flexnav li ul li a {
+    display: block;
+    background: none;
+    height: 36px;
+    padding-left: 10px;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-top: 1px solid #311527;
+}
+	.nightclub .container
+	{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.flexnav .touch-button {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 7%;
+    height: 51px;
+    display: inline-block;
+    background: #acaca1;
+    background: rgba(0, 0, 0, 0.075);
+    filter: alpha(opacity=25);
+    text-align: center;
+    visibility: visible;
+}
+	.flexnav {
+    *zoom: 1;
+    margin: 0px 0px 0px -36px;
+    width: 100%;
+    background: none;
+    display: block;
+}
+.flexnav li a {
+    position: relative;
+    display: block;
+    padding: 0px;
+    z-index: 2;
+    overflow: hidden;
+    color: #ffffff;
+    font: 15px Myriad pro;
+    height: 45px;
+    line-height: 50px;
+    z-index: 0;
+}
+	.nightclub .flexnav li {
+    position: relative;
+    list-style: none;
+    float: none;
+    display: block;
+    background: url(../../../templates/tmpl_nightclub/images/menu-line.png) no-repeat right;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flexnav li ul li {
+    float: none;
+	width: 100%;
+	margin-left: 0px;
+	background: none;
+}
+.flexnav li ul {
+    width: 97.5%;
+    display: none;
+    padding: 10px;
+    background: #1a0000;
+}
+.flexnav .touch-button .navicon {
+    position: relative;
+    top: 1.5em;
+    visibility: visible;
+    font-size: 12px;
+    color: #666;
+}
+.flexnav {
+    *zoom: 1;
+    margin: -13px 0px 0px 0px;
+    width: 100%;
+    background: rgba(65, 65, 65, 0.5);
+}
+.flexnav li ul {
+    width: 99%;
+display: none;
+background: #1a0000;
+margin-left: 0px;
+padding-left: 0px;
+}
+.flexnav li ul li {
+	padding: 0px;
+}
+.nightclub .flexnav li ul li ul {
+    position: relative;
+    left: 18px;
+    top: 0px;
+	width: 96%;
+}
+.nightclub div.sys_mm div.sys_mm_cnt {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.menu-button {
+    position: relative;
+    display: block;
+    padding: 13px 0.96em;
+    background: #1a0000;
+    color: #ffffff;
+    cursor: pointer;
+    font: 18px Myriad pro;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+}
+#profile_customize .popup_form_wrapper .container {
+    background-color: #000;
+    padding-left: 0px;
+    padding-right: 0px;
+}

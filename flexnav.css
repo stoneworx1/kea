@@ -1,0 +1,418 @@
+/* Flexnav Base Styles */
+/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+ .flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+	background: url(../../../templates/tmpl_nightclub/images/menu-line.png) no-repeat right;
+  }
+.nightclub div.sys_main_menu {
+    position: relative;
+    z-index: 2;
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: none;
+    background-color: transparent;
+    overflow: visible;
+}
+.nightclub div.sys_mm_cnt {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow-y: visible;
+    overflow-x: visible;
+    white-space: nowrap;
+}
+
+/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Globals */
+/* line 25, ../sass/flexnav.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 29, ../sass/flexnav.scss */
+.flexnav {
+  *zoom: 1;
+ margin: 0px auto;
+  width: 100%;
+  background: none;
+}
+.flexnav.flexNav-no-touch.lg-screen {
+    display: table;
+    float: none;
+    margin: 0px auto;
+    width: auto;
+}
+/* line 38, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.flexnav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 34, ../sass/flexnav.scss */
+/*.flexnav li {
+  font-size: 100%;
+  position: relative;
+}*/
+/* line 38, ../sass/flexnav.scss */
+.flexnav li a {
+  position: relative;
+  display: block;
+  padding: 0px;
+  z-index: 2;
+  overflow: hidden;
+  color: #ffffff;
+  font:15px Myriad pro;
+  height:45px;
+  line-height:50px;
+      z-index: 9999999;
+}
+/* line 48, ../sass/flexnav.scss */
+.flexnav li ul {
+  width: 162px;
+  display: none;
+  padding-top: 0px;
+	padding-bottom: 0px;
+  /*padding:10px;*/
+  background: #1a0000;
+}
+/* line 52, ../sass/flexnav.scss */
+.nightclub .flexnav li ul li {
+      float: none;
+    width: 100%;
+    margin-left: 0px;
+    background: none;
+    padding: 0px;
+}
+/* line 56, ../sass/flexnav.scss */
+.flexnav li ul li a {
+  display: block;
+ background:none;
+  height:36px;
+  padding-left: 10px;
+  line-height:40px;
+  margin-left: -12px;
+    margin-right: -12px;
+  border-top:1px solid #311527;
+}
+.flexnav li.last ul {
+     left: -48px !important;
+    position: absolute;
+}
+.flexnav li.last ul ul {
+     left: -324px !important;
+    position: absolute;
+}
+.nightclub .flexnav li ul li ul {
+	position: absolute;
+	left: -323px;
+	top: 0px;	
+}
+.flexnav li ul li.first > a
+{
+	 border-top:0 none;
+}
+/* line 60, ../sass/flexnav.scss */
+.flexnav ul li ul li a {
+	 background:none;
+}
+.flexnav li li .touch-button
+{
+	height:35px;
+}
+.flexnav li li .touch-button .navicon
+{
+	top:0.9em;
+}
+/* line 63, ../sass/flexnav.scss */
+.flexnav ul li ul li ul li a {
+  background: #1a0000;
+}
+/* line 66, ../sass/flexnav.scss */
+.flexnav .touch-button {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 51px;
+  display: inline-block;
+  background: #acaca1;
+  background: rgba(0, 0, 0, 0.075);
+  filter:alpha(opacity=25);
+  text-align: center;
+}
+/* line 77, ../sass/flexnav.scss */
+.flexnav .touch-button:hover {
+  cursor: pointer;
+}
+/* line 80, ../sass/flexnav.scss */
+.flexnav .touch-button .navicon {
+  position: relative;
+  top: 1.5em;
+  visibility: hidden;
+  font-size: 12px;
+  color: #666;
+}
+
+/* line 88, ../sass/flexnav.scss */
+.menu-button {
+  position: relative;
+  display: block;
+  padding: 13px 0.96em;
+  background: #1a0000;
+  color: #ffffff;
+  cursor: pointer;
+  font:18px Myriad pro;
+  text-transform:uppercase;
+}
+/* line 97, ../sass/flexnav.scss */
+.menu-button .touch-button {
+  background: transparent;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 43px;
+  height: 51px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 108, ../sass/flexnav.scss */
+.menu-button .touch-button .navicon {
+  font-size: 16px;
+  position: relative;
+  top: 15px;
+  color: #666;
+}
+@media all and (max-width: 830px) {
+
+}
+@media all and (min-width: 831px) {
+  /* line 120, ../sass/flexnav.scss */
+ /* .flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+	background: url(../../../templates/tmpl_nightclub/images/menu-line.png) no-repeat right;
+	padding: 0 12px;
+    width: 20%;
+  }*/
+  /* line 128, ../sass/flexnav.scss */
+  .flexnav li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    display: block;
+    top: 3.3em;
+    position: absolute;
+  }
+    .menu-button {
+    display: none;
+  }
+  /* line 137, ../sass/flexnav.scss */
+  .flexnav.lg-screen li:hover > ul, .flexnav.sm-screen li:hover > ul {
+    display: none;
+  }
+  /* line 140, ../sass/flexnav.scss */
+  .flexnav li a {
+    border:0 none;
+	font-family:"MyriadPro-Regular";
+	font-size:15px;
+	 color:#ffffff;
+	 text-transform:uppercase;
+	 line-height:50px;
+  }
+  
+   .flexnav li a {
+	   font:1
+	   text-transform:capitalize;
+   }
+   .flexnav li a:hover
+   {
+	   text-decoration:none;
+	   color:#B76CAF
+   }
+  /* line 144, ../sass/flexnav.scss */
+  .flexnav li > ul {
+    position: absolute;
+    top: auto;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 1px;
+    z-index: 999999999999;
+	/*padding: 10px;*/
+  }
+  /* line 153, ../sass/flexnav.scss */
+  .flexnav li ul li ul {
+    top: 0;
+  }
+  /* line 156, ../sass/flexnav.scss */
+  .flexnav li ul li a {
+    border-bottom: none;
+  }
+  /* line 159, ../sass/flexnav.scss */
+  .flexnav li ul.open {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+  }
+  /* line 165, ../sass/flexnav.scss */
+  .flexnav li ul.open ul.open {
+    margin-left: 100%;
+    top: 0;
+  }
+  /* line 170, ../sass/flexnav.scss */
+  .flexnav ul li:hover ul {
+    margin-left: 100%;
+    top: 0;
+  }
+
+  /* line 175, ../sass/flexnav.scss */
+}
+/* line 183, ../sass/flexnav.scss */
+.oldie .flexnav li {
+  position: relative;
+  list-style: none;
+  float: left;
+  display: block;
+  background-color: #a6a6a2;
+  width: 20%;
+}
+/* line 191, ../sass/flexnav.scss */
+.oldie .flexnav li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  display: block;
+  top: 3.1em;
+  position: absolute;
+}
+/* line 200, ../sass/flexnav.scss */
+.oldie .flexnav.lg-screen li:hover > ul, .oldie .flexnav.sm-screen li:hover > ul {
+  display: none;
+}
+/* line 203, ../sass/flexnav.scss */
+.oldie .flexnav li a {
+  border-left: 1px solid #acaca1;
+  border-bottom: none;
+}
+/* line 207, ../sass/flexnav.scss */
+.oldie .flexnav li > ul {
+  position: absolute;
+  top: auto;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  height: 1px;
+  z-index: 1;
+}
+/* line 216, ../sass/flexnav.scss */
+.oldie .flexnav li ul li ul {
+  top: 0;
+}
+/* line 219, ../sass/flexnav.scss */
+.oldie .flexnav li ul li a {
+  border-bottom: none;
+}
+/* line 222, ../sass/flexnav.scss */
+.oldie .flexnav li ul.open {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+}
+/* line 228, ../sass/flexnav.scss */
+.oldie .flexnav li ul.open ul.open {
+  margin-left: 100%;
+  top: 0;
+}
+/* line 233, ../sass/flexnav.scss */
+.oldie .flexnav ul li:hover ul {
+  margin-left: 100%;
+  top: 0;
+}
+/* line 238, ../sass/flexnav.scss */
+.oldie .menu-button {
+  display: none;
+}

@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html dir="LTR" class="skrollr skrollr-desktop">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Kink E Academy</title>
+    <!-- base href="https://kinkeacademy.com/" -->
+    <meta property="fb:app_id" content="1921388808187154">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <style>.sys_main_page_width {
+	max-width: 1397px;
+}
+.bx-hide-when-logged-in {
+	display: none;
+}
+.sys_page_index .page_column_first_width_41_2 {
+	width: 41.2%;
+}
+.sys_page_index .page_column_last_width_58_8 {
+	width: 58.8%;
+}
+.sys_page_index .page_column_full_width_100 {
+	width: 100%;
+}
+</style> <link href="Kink%20E%20Academy_files/gzip_loader.css" rel="stylesheet"
+      type="text/css">
+    <link href="Kink%20E%20Academy_files/gzip_loader_002.css" rel="stylesheet" type="text/css">
+    <script language="javascript" type="text/javascript" src="Kink%20E%20Academy_files/gzip_loader_002.php"></script>
+    <script language="javascript" type="text/javascript" src="Kink%20E%20Academy_files/gzip_loader.php"></script>
+    <link rel="stylesheet" href="Kink%20E%20Academy_files/jquery.css" media="all">
+    <script id="bx_css_async">
+                if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                    loadCSS("https://kinkeacademy.com/plugins/emoji-picker/css/jquery.emojipicker.tw.css", document.getElementById("bx_css_async"));
+                }
+            </script>
+    <script type="text/javascript" language="javascript">var aDolImages = {};</script>
+    <script type="text/javascript" language="javascript">var aDolLang = {'_Counter': 'Counter','_PROFILE_ERR': 'Error!\nYour username or password was incorrect. Please try again.','_sys_txt_btn_loading': 'Loading...','_Errors in join form': 'Form contains errors, please review errors and try again.','_add': 'add','_add_other': 'add other','_Remove': 'Remove'};</script>
+    <script type="text/javascript" language="javascript">var aDolOptions = {'sys_embedly_key': ''};</script>
+    <script type="text/javascript" language="javascript">
+		var site_url = 'https://kinkeacademy.com/';
+        var aUserInfoTimers = new Array();
+
+        // make logo text to not overflow
+        var fResizeCallback = function () {
+            var iSize = $('.sys_ml_wrapper').innerWidth() - $('.sys_search_wrapper').outerWidth() - $('.sys_menu_wrapper').outerWidth() - 20;
+            $('.mainLogoText, .mainLogo').css('max-width', iSize + 'px');
+        };
+        $(window).resize(fResizeCallback);
+
+        $(document).ready(function() {
+			/*--- Init RSS Feed Support ---*/
+			$('div.RSSAggrCont').dolRSSFeed();
+
+			/*--- Init Retina Support ---*/
+			$('img.bx-img-retina').dolRetina();
+
+			/*--- Init Embedly Support ---*/
+			$('a.bx-link').dolEmbedly();
+
+			/*--- Init Scrollr ---*/
+			var oSkrollr = skrollr.init({
+				forceHeight: false
+			});
+			if(oSkrollr.isMobile())
+				oSkrollr.destroy();
+
+            fResizeCallback();
+		});
+
+        /*--- Init User Status ---*/
+        var oBxUserStatus = new BxUserStatus();
+        oBxUserStatus.userStatusInit('https://kinkeacademy.com/', false);
+	</script>
+    <script type="text/javascript" src="Kink%20E%20Academy_files/custom.js"></script>
+    <script type="text/javascript" src="Kink%20E%20Academy_files/jquery.js"></script>
+    <link rel="stylesheet" href="Kink%20E%20Academy_files/flexnav.css">
+    <link rel="stylesheet" href="Kink%20E%20Academy_files/bootstrap.css">
+    <link rel="stylesheet" href="Kink%20E%20Academy_files/style.css">
+  </head>
+  <body class="bx-def-font" style="  margin-bottom: 50px;" cz-shortcut-listen="true">
+    <div id="float_info" style="display: none; position: absolute; z-index: 1010; top: -9999px;"></div>
+    <script type="text/javascript" language="javascript">var sRayUrl = "https://kinkeacademy.com/flash/";var aRayApps = new Array();//global begin
+aRayApps["global"] = new Array();
+aRayApps["global"]["admin"] = {"params": new Array('nick', 'password'), "top": 0, "left": 0, "width": 800, "height": 600, "resizable": 0};
+//global end
+//im begin
+aRayApps["im"] = new Array();
+aRayApps["im"]["user"] = {"params": new Array('sender', 'password', 'recipient'), "top": 0, "left": 0, "width": 550, "height": 500, "resizable": 1};
+//im end
+//mp3 begin
+aRayApps["mp3"] = new Array();
+aRayApps["mp3"]["player"] = {"params": new Array('id', 'user', 'password'), "top": 0, "left": 0, "width": 340, "height": 350, "resizable": 0};
+aRayApps["mp3"]["recorder"] = {"params": new Array('user', 'password', 'extra'), "top": 0, "left": 0, "width": 340, "height": 300, "resizable": 0};
+//mp3 end
+//photo begin
+aRayApps["photo"] = new Array();
+aRayApps["photo"]["shooter"] = {"params": new Array('id', 'extra'), "top": 0, "left": 0, "width": 400, "height": 300, "resizable": 0};
+//photo end
+//presence begin
+aRayApps["presence"] = new Array();
+aRayApps["presence"]["user"] = {"params": new Array('id', 'password'), "top": 0, "left": 0, "width": 250, "height": 605, "resizable": 1};
+//presence end
+//video begin
+aRayApps["video"] = new Array();
+aRayApps["video"]["player"] = {"params": new Array('id', 'user', 'password'), "top": 0, "left": 0, "width": 350, "height": 400, "resizable": 0};
+aRayApps["video"]["recorder"] = {"params": new Array('user', 'password', 'extra'), "top": 0, "left": 0, "width": 350, "height": 400, "resizable": 0};
+//video end
+//video_comments begin
+aRayApps["video_comments"] = new Array();
+aRayApps["video_comments"]["player"] = {"params": new Array('id', 'user', 'password'), "top": 0, "left": 0, "width": 350, "height": 400, "resizable": 0};
+aRayApps["video_comments"]["recorder"] = {"params": new Array('user', 'password', 'extra'), "top": 0, "left": 0, "width": 350, "height": 400, "resizable": 0};
+//video_comments end</script>
+    <script src="Kink%20E%20Academy_files/integration.js" type="text/javascript"
+language="javascript"></script>
+    <script language="javascript" type="text/javascript">
+<!--
+    var BxMsgTopMargin = 25;
+    var BxMsgUpdateInterval = 5000;
+    if(isNaN(BxMsgUpdateInterval)) BxMsgUpdateInterval = 30000;
+    var sBxMsgMemberId = "1764";
+    var sBxMsgMemberPassword = "7113026dbccad3801452731f22a61265b024bf7b";
+    var sBxMsgSiteUrl = "https://kinkeacademy.com/";
+    var sBxMsgGetUrl = "https://kinkeacademy.com/modules/?r=messenger/";
+    var sBxMsgUpdateUrl = "https://kinkeacademy.com/flash/XML.php?module=im&action=updateInvite&recipient=1764";
+    BxMsgUpdate();
+-->
+</script> <script type="text/javascript">
+                    $(document).ready(function () {
+                        var sMemberMenuOutputBlock = 'extra_area';
+
+                        // if member menu was defined;
+                        $('#' + sMemberMenuOutputBlock).each(
+                            function(){
+                                oSimpleMessenger.chatBoxSettings =
+                                {
+                                    // the page which will process all AJAX queries ;
+                                    sPageReceiver           :   'https://kinkeacademy.com/modules/?r=simple_messenger/get_operation',
+
+                                    // contain block's id where the list of messages will be generated ;
+                                    sOutputBlockId          :   sMemberMenuOutputBlock,
+
+                                    // time (in seconds) script checks for new messages ;
+                                    updateTime              :   3000,
+
+                                    // contain descriptor of the created timeout ;
+                                    updateTimeNotifyHandler : '',
+
+                                    // the number of visible messages into chat box ;
+                                    iNumberVisibleMessages  :   25,
+
+                                    // contains history block's prefix (block's name where will add the new messages);
+                                    sHistoryBlockPrefix     :   'messages_history_',
+
+                                    iParentContainerHeight  : 0,
+
+                                    // current member's menu position ;
+                                    sMemberMenuPosition     :   'bottom',
+
+                                    // wrapper for chat boxes;
+                                    sChatBox                :   'simple_messenger_chat_block',
+
+                                    // flashing signals amount of the non-active window ;
+                                    iMaxBlinkCounter        :   '4'
+                                };
+
+                                oSimpleMessenger.systemMessages.emptyMessage = 'Please enter your message';
+                                oSimpleMessenger.systemMessages.waitMessage  = 'Please wait';
+
+                                var oMenuContainer = $(this).parents('div:first');
+                                var iContainerHeight =  parseInt( oMenuContainer.height() );
+
+                                oSimpleMessenger.chatBoxSettings.iParentContainerHeight = (iContainerHeight) ? iContainerHeight + 5 : 0;
+                                oSimpleMessenger.oDefinedChatBoxes.boxes  = Array();
+                                oSimpleMessenger.messageNotification();
+                            }
+                        );
+                    });
+                </script>
+    <div id="notification_window" class="notifi_window"></div>
+    <div id="FloatDesc" style="position:absolute;display:none;z-index:100;"></div>
+    <div class="nightclub">
+      <div class="sys_root_bg"></div>
+      <div class="sys_root">
+        <!--[if IE 7]>
+<style type="text/css">    div.extra_top_menu table.fixed_menu ul ul    {        margin-bottom:-2px;    }    div.extra_top_menu table.fixed_menu  #extra_menu_section ul ul{        margin-top:1px;
+    }</style><![endif]-->
+        <div id="extra_top_menu" class="extra_top_menu" style="position: fixed; z-index: 990; left: 0px; bottom: 0px; display: block;">
+          <table class="fixed_menu" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <!-- Main menu (left section) -->
+                <td style="width: 191px;" valign="top">
+                  <div id="primary_menu_section" class="popup_html bx-def-margin-sec-left">
+                    <ul class="primary">
+                      <li>
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_8')"
+                          onmouseout="membermenu.hide_description('descr_8')"> <a
+                            href="javascript:void(0)" class="bottom_indent"><i class="sys-icon edit"
+                              alt=""></i></a>
+                          <div class="description description_bottom" id="descr_8">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Status Message</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_8" class="extra_menu_popup extra_menu_popup_StatusMessage"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_img bx-def-padding-thd-right"><i
+                                            class="sys-icon edit" alt="Status Message"></i></div>
+                                        <div class="part_name"><a href="javascript:void(0);"
+                                            class="item_block">Status Message</a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_8')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_8"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_34')"
+                          onmouseout="membermenu.hide_description('descr_34')">
+                          <div class="bubble" id="bubble_Mail"> <span class="bubble_count">1</span>
+                          </div>
+                          <a href="javascript:void(0)" class="bottom_indent"><i
+                              class="sys-icon envelope" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_34">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Mail</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_34" class="extra_menu_popup extra_menu_popup_Mail"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_img bx-def-padding-thd-right"><i
+                                            class="sys-icon envelope" alt="Mail"></i></div>
+                                        <div class="part_name"><a href="https://kinkeacademy.com/mail.php?mode=inbox"
+                                            class="item_block">Mail</a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_34')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_34"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_33')"
+                          onmouseout="membermenu.hide_description('descr_33')">
+                          <div class="bubble" id="bubble_Friends" style="display:none">
+                            <span class="bubble_count">0</span> </div>
+                          <a href="javascript:void(0)" class="bottom_indent"><i
+                              class="sys-icon users" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_33"
+                            style="visibility: hidden;">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Friends</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_33" class="extra_menu_popup extra_menu_popup_Friends"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_img bx-def-padding-thd-right"><i
+                                            class="sys-icon users" alt="Friends"></i></div>
+                                        <div class="part_name"><a href="https://kinkeacademy.com/viewFriends.php?iUser=1764"
+                                            class="item_block">Friends</a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_33')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_33"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_7')"
+                          onmouseout="membermenu.hide_description('descr_7')"> <a
+                            href="https://kinkeacademy.com/pedit.php?ID=1764" class="bottom_indent"><i
+                              class="sys-icon cog" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_7">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Edit profile info and settings</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="clear_both"></div>
+                  </div>
+                </td>
+                <td valign="top"> <br>
+                </td>
+                <!-- Extra menu (right section) -->
+                <td style="width: 330px;" valign="top">
+                  <div id="extra_menu_section" class="popup_html bx-def-margin-sec-right">
+                    <ul class="primary">
+                      <li class="extra_item">
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_30')"
+                          onmouseout="membermenu.hide_description('descr_30')">
+                          <a href="javascript:void(0)" class="bottom_indent">
+                            <div class="menu_item_indent"></div>
+                            <div class="menu_item_thumbnail bx-def-margin-sec-right">
+                              <i class="sys-icon user"></i> <i class="sys-online-offline-changer sys-icon circle sys-status-online"
+                                title="Online"></i> </div>
+                            <b class="menu_item_username">MasterStone</b></a>
+                          <div class="description description_bottom" id="descr_30">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Presence</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_30" class="extra_menu_popup extra_menu_popup_MemberBlock"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_name"><a href="https://kinkeacademy.com/MasterStone"
+                                            class="item_block"><b class="menu_item_username">MasterStone</b></a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_30')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_30"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="extra_item">
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_2')"
+                          onmouseout="membermenu.hide_description('descr_2')">
+                          <div class="bubble" id="bubble_Mail"> <span class="bubble_count">1</span>
+                          </div>
+                          <a href="javascript:void(0)" class="bottom_indent"><i
+                              class="sys-icon envelope" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_2">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Mail</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_2" class="extra_menu_popup extra_menu_popup_Mail"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_img bx-def-padding-thd-right"><i
+                                            class="sys-icon envelope" alt="Mail"></i></div>
+                                        <div class="part_name"><a href="https://kinkeacademy.com/mail.php?mode=inbox"
+                                            class="item_block">Mail</a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_2')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_2"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="extra_item">
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_3')"
+                          onmouseout="membermenu.hide_description('descr_3')">
+                          <div class="bubble" id="bubble_Friends" style="display:none">
+                            <span class="bubble_count">0</span> </div>
+                          <a href="javascript:void(0)" class="bottom_indent"><i
+                              class="sys-icon users" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_3"
+                            style="visibility: hidden;">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Friends</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_3" class="extra_menu_popup extra_menu_popup_Friends"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_img bx-def-padding-thd-right"><i
+                                            class="sys-icon users" alt="Friends"></i></div>
+                                        <div class="part_name"><a href="https://kinkeacademy.com/viewFriends.php?iUser=1764"
+                                            class="item_block">Friends</a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_3')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_3"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="extra_item">
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_35')"
+                          onmouseout="membermenu.hide_description('descr_35')">
+                          <a href="https://kinkeacademy.com/pedit.php?ID=1764" class="bottom_indent"><i
+                              class="sys-icon cog" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_35">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Edit profile info and settings</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="extra_item extra_item_add_content">
+                        <div class="menu_item menu_item_bottom" onmouseover="membermenu.show_description('descr_6')"
+                          onmouseout="membermenu.hide_description('descr_6')">
+                          <div class="bubble" id="bubble_AddContent" style="display:none">
+                            <span class="bubble_count">null</span> </div>
+                          <a href="javascript:void(0)" class="bottom_indent"><i
+                              class="sys-icon plus" alt=""></i></a>
+                          <div class="description description_bottom" id="descr_6"
+                            style="visibility: hidden;">
+                            <table class="description bx-def-padding-sec bx-def-round-corners bx-def-shadow">
+                              <tbody>
+                                <tr>
+                                  <td>Add New ...</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <ul id="extra_menu_popup_6" class="extra_menu_popup extra_menu_popup_AddContent"
+                          style="bottom: 45px; display: none; visibility: visible;">
+                          <li>
+                            <table class="popup" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="html_data">
+                                    <div class="popup_content bx-def-border bx-def-round-corners">
+                                      <div class="extra_data top_cover bx-def-padding-sec-leftright bx-def-padding-thd-topbottom">
+                                        <div class="part_img bx-def-padding-thd-right"><i
+                                            class="sys-icon plus" alt="Add New ..."></i></div>
+                                        <div class="part_name"><a href="javascript:void(0);"
+                                            class="item_block">Add New ...</a></div>
+                                        <div class="part_reduce">
+                                          <div class="part_reduce_cnt"> <i class="sys-icon times"
+                                              alt="Close" title="Close" onclick="membermenu.close_popup('extra_menu_popup_6')"></i>
+                                          </div>
+                                          <div class="part_reduce_indent bx-def-padding-sec-right"></div>
+                                        </div>
+                                      </div>
+                                      <div class="html_data bx-def-padding-leftright clearfix"
+                                        id="menu_content_6"></div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="clear_both"></div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <script type="text/javascript">
+
+    jQuery.fn.fixedMenuMember = function(options, callback) {
+
+        options = jQuery.extend({
+            // possible variants : top, bottom, static ;
+            menu_position : 'top'
+        }, options);    
+
+        return(this.each(function() {
+            jQuery(this).css({
+                position: ( options.menu_position == 'static' ) ? 'absolute' : 'fixed',
+                zIndex: '990',
+                left: '0px'
+            });
+
+            if ( options.menu_position == 'top' || options.menu_position == 'static' ) {
+                jQuery(this).css({ top: '0px'});
+                jQuery('.sys_main_logo').css({ 'padding-top': '45px'});
+            }
+            else {
+               jQuery(this).css({ bottom: '0px'});
+            }
+
+            // set visible ;
+            jQuery(this).css('display', 'block');
+            if ( typeof callback == 'function' ) {
+                callback();
+            }    
+        }));
+    };
+
+    // ** define some global menu's variables ;
+
+    // define all menu's popup menu ;
+    var membermenu = 
+    {
+        // contain path for page response ;
+        page_url            : 'https://kinkeacademy.com/member_menu_queries.php',
+        data_block_prefix   : 'menu_content_',
+
+        //duration of slide in/ out animation, in milliseconds for submenu
+        animateduration         : {over: 200, out: 100},
+
+        notify_window_animateduration  : {over: 1000, out: 1000},
+
+        description_window_animateduration  : {over: 300, out: 300},
+
+        // member menu's width ;
+        iMemberMenuWidth        : 0,
+
+        // member menu's wrapper width ;
+        iMemberMenuWrapperWidth : 0,
+
+        // current member menu position ;
+        sMenuPosition : '',
+
+        // contain all registered bubbles for menu items;
+        oBubbles : '',
+
+        // in millisecond;
+        iBubblesUpdateTime : 30000, 
+
+        iDestroyNotifiWindowsTime : 3000,
+
+        // contains a descriptor of the created timeout ;
+        rBubblesHandler : '',
+
+        rNotifyHandler : '',
+
+        // contain notify block's id;
+        sNotifyWindow : 'notification_window',
+
+        sBubbleBubblePrefix : 'bubble_',
+        sMenuPopupPrefix: 'extra_menu_popup_',
+        sDescriptionPrefix: 'descr_',
+        
+
+        // description window's id (nedded for displayed menu description);
+        sDescriptionWindow : 'MemberMenuDesc',
+
+        /**
+         * Function will define some nedded menu's settings;
+         *
+         * @param : sMenuPosition (string) - menu's position;
+         * @param : aMenuSections (array)  - menu's sections (that will need to build);
+         */
+        init:function(sMenuPosition, aMenuSections)
+        {
+            var i = 0;
+            var iSections  =  aMenuSections.length;
+            var self = this;
+
+            var $oExtraMenu = $('#extra_top_menu .fixed_menu');
+
+            this.iMemberMenuWidth = $oExtraMenu.width();
+            this.iMemberMenuWrapperWidth = $oExtraMenu.width();
+            this.sMenuPosition = sMenuPosition;
+
+            this.oBubbles = {
+                "Mail" : {count:'1'}, 
+"Friends" : {count:'0'}, 
+"Mail" : {count:'1'}, 
+"Friends" : {count:'0'}, 
+"AddContent" : {count:''}            }
+
+            // build submenus;
+            for(i=0; i<iSections; i++)
+            {
+                // try define width for received sections;
+                $('#' + aMenuSections[i]).each(function(){
+                    $(this).parent().css( 'width', $(this).width() + 5 );
+                    self.buildmenu(aMenuSections[i]);
+                });
+            }
+
+            this.update_bubbles();
+        },
+        /**
+         * Function will update all registered bubbles;
+         *
+         */
+        update_bubbles:function()
+        {
+            var self = this;
+            var sQueryParam  = '';
+
+            //procces all registered bubbles;
+            for (var Element in  this.oBubbles)
+            {
+                sQueryParam = sQueryParam + Element + ':' + this.oBubbles[Element].count + ',';
+            }
+
+            // if any of bubbles not defined;
+            if ( !sQueryParam ) {
+                return;
+            }
+
+            var _sRandom = Math.random();
+
+            $.get(this.page_url, { action: "get_bubbles_values", bubbles: sQueryParam, _r : _sRandom  }, function(sData)
+            {
+                if (sData)
+                {
+                    var iCount = 0;
+                    var sNotifications = '';
+                    var bHaveMessages = false;
+                    var oResponse;
+                    if ('object' == typeof sData)
+                        oResponse = sData;
+                    else
+                        oResponse = eval("(" + sData + ")");
+                    for (Element in oResponse)
+                    {
+                        if ( typeof self.oBubbles[Element] != 'undefined' ) {
+                            iCount = parseInt(oResponse[Element].count);
+                            if(!iCount)
+                            	iCount = 0;
+
+                            self.oBubbles[Element].count = iCount;
+
+                            // update bubble's block with recived value;
+                            var iOldCount = parseInt( $('#' + self.sBubbleBubblePrefix + Element).find('span.bubble_count:first').text() );
+                            if(!iOldCount)
+                            	iOldCount = 0;
+
+                            $('#' + self.sBubbleBubblePrefix + Element).find('span.bubble_count:first').text(oResponse[Element].count);
+
+                            if ( typeof oResponse[Element].onlclick_script != 'undefined' 
+                                && oResponse[Element].onlclick_script) {
+
+                                self.oBubbles[Element].onlclick_script = oResponse[Element].onlclick_script;
+                            }
+                            else {
+                                self.oBubbles[Element].onlclick_script = 'undefined';
+                            }
+
+                            // process all recived messages (if isset);
+                            if ( typeof oResponse[Element].messages != 'undefined' ) {
+                                //clearTimeout(self.rNotifyHandler);
+                                bHaveMessages = false;
+
+                                for (MessageEl in oResponse[Element].messages)
+                                {
+                                	if( typeof oResponse[Element].messages[MessageEl].message == 'undefined')
+                                		continue;
+
+                                    // add messages into container;
+                                    sNotifications = '<div class="notifi">' + oResponse[Element].messages[MessageEl].message + '<\/div>';
+                                    $(sNotifications).prependTo('#' + self.sNotifyWindow).mouseover(function(){$(this).addClass('active')}).mouseout(function(){$(this).removeClass('active')});
+                                    bHaveMessages = true;
+                                }
+
+                                var _this = self;
+                                $('#' + self.sNotifyWindow).find('div.notifi').each(function (i) {
+                                    if ( $(this).css('display') != 'block' ){
+                                        $(this).fadeIn(_this.notify_window_animateduration.over);
+                                    }
+                                });
+
+                                if( !self.rNotifyHandler && bHaveMessages ) {
+                                    setTimeout(function(){
+                                       _this.destroy_notify_windows();
+                                    }, self.iDestroyNotifiWindowsTime);
+                                }
+                            }
+
+                            if (iCount > iOldCount) {
+                                self.set_visible_bubble_block(self.sBubbleBubblePrefix + Element);
+                            }
+
+                            if (iCount != iOldCount || bHaveMessages) {
+                                // refresh the bubble's submenu;
+                                var $oCurrentMenu = $('#' + self.sBubbleBubblePrefix + Element);
+                                var $oSubMenu = $oCurrentMenu.parents('li:first').find('ul:first');
+                                self.load_sub_menu_content($oSubMenu.attr('id'), true);
+
+                                if( $oSubMenu.css('display') != 'none' ) {
+                                    $oSubMenu.css('display', 'none');
+                                    $oCurrentMenu.parent().removeClass('menu_item_active');
+                                }
+                            }
+
+                            if (!iCount) {
+                                self.set_hidden_bubble_block(self.sBubbleBubblePrefix + Element);
+                            }
+                        }
+                    }
+
+                    var _this = self;
+                    self.rBubblesHandler = setTimeout(function(){
+                        _this.update_bubbles();
+                    },self.iBubblesUpdateTime);
+                }
+            });
+        },
+        /**
+         * Function will set status as hidden for received bubble box;
+         *
+         *
+         */
+        set_hidden_bubble_block:function(sBubbleId)
+        {
+            var oObject = $('#' + sBubbleId);
+            if(typeof oObject != 'undefined') {
+                $(oObject).css('display', 'none');
+            }
+        },
+        /**
+         * Function will set status as visible for received bubble box;
+         *
+         *
+         */
+        set_visible_bubble_block:function(sBubbleId)
+        {
+            var oObject = $('#' + sBubbleId);
+            if(typeof oObject != 'undefined') { 
+                if ( $(oObject).css('display') != 'hidden' ) {
+                    $(oObject).css('display', 'block');
+                }
+            }  
+        },
+        check_exist_notify_window:function(oNotifyWindow)
+        {
+            var self = this;
+
+            if ( typeof oNotifyWindow.find('div.notifi').attr('class') != 'undefined' ) {
+                this.rNotifyHandler = setTimeout(function(){
+                   self.destroy_notify_windows();
+                }, this.iDestroyNotifiWindowsTime);
+            }
+            else {
+                clearTimeout(this.rNotifyHandler);
+                this.rNotifyHandler = '';
+            }
+        },
+        /**
+         * Function will destroy all active notify messages;
+         *
+         */
+        destroy_notify_windows:function()
+        {
+            var self = this;
+            var $oNotifyWindow = $('#' + self.sNotifyWindow);
+            var $oBuildedNotifyWindow = $oNotifyWindow.find('div.notifi:not(:animated):last');
+            var isDefined = false;
+
+            // remove last notify window;
+            if ( $oBuildedNotifyWindow && !$oBuildedNotifyWindow.hasClass('active') ) {
+                $oBuildedNotifyWindow.fadeOut(this.notify_window_animateduration.out, function(){
+                    $(this).remove();
+                    isDefined = true;
+                    // check notify window existing;
+                    self.check_exist_notify_window($oNotifyWindow);
+                });
+            }
+            else {
+                // remove next after last;
+                $oBuildedNotifyWindow.prev().fadeOut(this.notify_window_animateduration.out, function(){
+                    $(this).remove();
+                    isDefined = true;
+                    // check notify window existing;
+                    self.check_exist_notify_window($oNotifyWindow);
+                });
+            }
+
+            if(!isDefined) {
+                self.check_exist_notify_window($oNotifyWindow);
+            }
+        },
+        /**
+         * Function will generate menu and sub menu items;
+         *
+         * @param : menuid (string) - menu's in DOM;
+         */
+        buildmenu:function( menuid )
+        {
+            var $mainmenu = $("#"+menuid+">ul");
+            var $headers  = $mainmenu.find("ul").parent();
+            var self = this;
+
+            $headers.each(function(i)
+            {
+
+                var $curobj=$(this);
+                var $subul=$(this).find('ul:eq(0)');
+
+                this._dimensions=
+                {
+                    h:$(this).height()
+                }
+
+                this.istopheader=$curobj.parents("ul").length == 1 ? true : false;
+               // define the member menu's position ;
+                if ( self.sMenuPosition == 'bottom' ) {
+                    // set sub menu's bottom possition;
+                    $subul.css({bottom:this._dimensions.h + 5});
+                }
+                else {
+                    // set sub menu's top position ;
+                    $subul.css({top:this._dimensions.h + 5});
+                }
+
+                $curobj.click(
+                    function(event)
+                    {
+                        var event = event || window.event;
+                        var t = event.target || event.srcElement;
+                        var self = this;
+
+                        if ( $(t).parents('ul:first').hasClass('primary') ) {
+
+                                var $targetul=$(this).children("ul:eq(0)");
+
+                                // hide or show the active bubble;
+                                var $buble_el = $targetul.parents('li:first').find('.bubble:first');
+                                $buble_el.css('display', 'none');
+
+                                if( $($targetul).css('display') == 'block') {
+                                    membermenu.close_popup( $($targetul).attr('id') );
+                                    return;
+                                }
+
+                                // fill block with content ;
+                                membermenu.load_sub_menu_content($targetul.attr('id'), false, function()
+                                {
+                                	var iTargetId = parseInt($targetul.attr('id').replace(membermenu.sMenuPopupPrefix, ''));
+
+                                    // set hidden all active sub menus;
+                                    $('#extra_top_menu ul ul').each(function (i){
+                                        if( this.id != $targetul.attr('id') ) {
+                                            membermenu.close_popup(this.id);
+                                        }
+                                    });
+
+									// set hidden description hint;
+									membermenu.hide_description(membermenu.sDescriptionPrefix + iTargetId);
+
+                                    if ($targetul.queue().length <= 1) { 
+                                        // set menu item as active state ;
+                                        $(self).children().addClass('menu_item_active');
+
+                                        $targetul.fadeIn( membermenu.animateduration.over);
+                                    }
+
+                                    // check onclick script and execute this if isset;
+                                    if($buble_el.length != 0) {
+                                        var sBubbleId = $buble_el.attr('id').replace(membermenu.sBubbleBubblePrefix, '');
+                                        var sCode = membermenu.oBubbles[sBubbleId].onlclick_script;
+                                        if(sCode) {
+                                            eval(sCode);
+                                        }
+                                    }
+                                });
+                        }
+                    }
+                ) //end click
+
+            }) //end $headers.each()
+
+            $mainmenu.find("ul").css({display:'none', visibility:'visible'})
+        },
+        /**
+         * Function will load submenu for current active menu item;
+         *
+         * @param : popup_id (string) - popup's Id;
+         * @param : forced (boolean)  - if set as true than script will load data from server side;
+         * @param : callback (string) - callback function ;
+         */
+        load_sub_menu_content:function( popup_id, forced, callback )
+        {
+            if(!popup_id) {
+                return;
+            }
+
+            var iMenuId = popup_id.replace(/[^0-9]{1,}/, '');
+            if( forced || $.trim( $('#' + this.data_block_prefix + iMenuId).html() ).length == 0 )
+            {
+                var _sRandom = Math.random();
+                var sPageUrl = this.page_url + '?action=get_menu_content&menu_id=' + iMenuId + '&_r=' + _sRandom;
+                
+
+                $( '#' + this.data_block_prefix + iMenuId).load(sPageUrl, function() {
+                    if ( typeof callback != 'undefined' ) {
+                        callback();
+                    }
+                });
+            }
+            else {
+                if ( typeof callback != 'undefined' ) {
+                    callback();
+                }
+            }
+        },
+        /**
+         * Function will close opened the popup window ;
+         *
+         */
+        close_popup:function(popup_id)
+        {
+            var self = this;
+            var $el = $('#' + popup_id);
+
+            $el.fadeOut(this.animateduration.out, function () {
+                $el.parent().children().removeClass('menu_item_active');
+            });
+        },
+        /**
+         * Function will show menu's description block;
+         *
+         * @param : description_block (string);
+         */
+        show_description:function(description_block)
+        {
+            $('#' + description_block).css('visibility', 'visible');
+        },
+        /**
+         * Function will hide menu's description block;
+         *
+         * @param : description_block (string);
+         */
+        hide_description:function(description_block)
+        {
+            $('#' + description_block).css('visibility', 'hidden');
+        }
+    }
+
+    $(document).ready(function () {
+        var sMenuPosition = 'bottom';
+
+        // define menu's position ;
+        $("#extra_top_menu").fixedMenuMember({menu_position:sMenuPosition}, function(){
+            var aMenuSections = new Array();
+            aMenuSections[0]  = 'primary_menu_section'; 
+            aMenuSections[1]  = 'extra_menu_section'; 
+
+            // build menu ;
+            membermenu.init(sMenuPosition, aMenuSections);
+        });
+    });    
+</script> <div class="sys_main_logo">
+          <div class="sys_ml sys_main_page_width">
+            <div class="sys_ml_wrapper bx-def-margin-sec-leftright bx-def-padding-sec-topbottom">
+              <!-- <table cellpadding="0" cellspacing="0">
+                	<tr>-->
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="sys_logo_wrapper">
+                    <div class="sys_logo_wrapper_cnt bx-def-padding-sec-leftright">
+                      <h1><a href=""><img src="Kink%20E%20Academy_files/logo.png"></a></h1>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div style="margin-top: 15px;">
+                    <div class="mobile-set">
+                      <div class="sys-service-menu-wrp">
+                        <div class="sys-service-menu">
+                          <div class="sys-sm-item sys-smi-profile bx-def-margin-sec-left-auto"
+                            onclick="javascript:oBxEvoServiceMenu.showMenu(this);">
+                            <div class="sys-sm-profile"> <span class="sys-smp-thumbnail">
+                                <i class="sys-icon user"></i> </span> <span class="sys-smp-title bx-def-margin-sec-left">MasterStone</span>
+                            </div>
+                            <span class="sys-sm-item"> <i class="sys-icon chevron-down"></i>
+                            </span>
+                            <div id="sys-service-menu-1522187105" class="sys-sm-item-submenu">
+                              <div class="popup_form_wrapper trans_box">
+                                <div class="container bx-def-border bx-def-round-corners">
+                                  <div class="sys-sm-item-submenu-cnt clearfix">
+                                    <div class="sys-service-menu-profile">
+                                      <div class="thumbnail_block  thumbnail_block_icon"
+                                        style="float:left;">
+                                        <div class="thumbnail_image" onmouseover="javascript:startUserInfoTimer(1764, this)"
+                                          onmouseout="javascript:stopUserInfoTimer(1764)">
+                                          <a href="https://kinkeacademy.com/MasterStone"
+                                            title="MasterStone">
+                                            <p class="thumbnail_image_letter bx-def-border bx-def-thumbnail bx-def-shadow">M</p>
+                                            <i class="sys-online-offline sys-icon circle sys-status-online"
+                                              title="Online"></i> </a> </div>
+                                        <div class="clear_both"></div>
+                                      </div>
+                                      <div class="profile_block"><a href="https://kinkeacademy.com/MasterStone">MasterStone</a></div>
+                                    </div>
+                                    <div class="sys-service-menu">
+                                      <div class="sys-sm-link"> <a class="sys-sm-link"
+                                          href="https://kinkeacademy.com/member.php"
+                                          title="Account"> <i class="sys-icon tachometer"></i><span>Account</span>
+                                        </a> </div>
+                                      <div class="sys-sm-link"> <a class="sys-sm-link"
+                                          href="https://kinkeacademy.com/pedit.php?ID=1764"
+                                          title="Settings"> <i class="sys-icon cog"></i><span>Settings</span>
+                                        </a> </div>
+                                      <div class="sys-sm-link"> <a class="sys-sm-link"
+                                          href="https://kinkeacademy.com/logout.php?action=member_logout"
+                                          title="Logout"> <i class="sys-icon sign-out"></i><span>Logout</span>
+                                        </a> </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <script type="text/javascript">
+		function BxEvoServiceMenu(oOptions) {
+			this._sMenuPopupId = oOptions.sMenuPopup == undefined ? 'sys-service-menu' : oOptions.sMenuPopup;
+	    }
+
+		BxEvoServiceMenu.prototype.showSearch = function() {
+			if($('#sys_search input[name="keyword"]').val().length > 2)
+				$('#sys_search form')[0].submit();
+		};
+
+		BxEvoServiceMenu.prototype.showMenu = function(oLink) {
+			$(oLink).find('.sys-sm-item > .sys-icon').toggleClass('chevron-down').toggleClass('chevron-up');
+
+			$('#' + this._sMenuPopupId).dolPopup({
+	    		pointer:{
+	    			el:$(oLink)
+	    		},
+	        }); 	
+	    };
+
+	    var oBxEvoServiceMenu = new BxEvoServiceMenu({
+	    	sMenuPopup: 'sys-service-menu-1522187105'
+	    });
+	</script> </div>
+                    </div>
+                    <div class="search-div sys_search_wrapper">
+                      <div class="sys-service-menu-wrp">
+                        <div class="sys-service-menu">
+                          <div class="sys-sm-item sys-smi-search">
+                            <div id="sys_search_wrapper" class="sys-search-wrapper">
+                              <div id="sys_search" class="sys-search bx-def-margin-left bx-def-round-corners-with-border">
+                                <form action="searchKeyword.php" method="get" name="SearchForm">
+                                  <input name="keyword" id="keyword" placeholder="Search..."
+                                    class="bx-def-font" type="text"> </form>
+                              </div>
+                            </div>
+                            <a class="sys-sm-item" href="javascript:void(0)" onclick="javascript:oBxEvoServiceMenu.showSearch();"
+                              title="Search"> <i class="sys-icon search"></i> </a>
+                          </div>
+                          <div class="sys-sm-item sys-smi-search-simple"> <a class="sys-sm-item"
+                              href="https://kinkeacademy.com/searchKeyword.php"
+                              title="Search"> <i class="sys-icon search"></i> </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-md-6--> </div>
+              <!--end row-->
+              <!--<div class="sys_menu_wrapper"><div class="sys-service-menu-wrp">
+	<div class="sys-service-menu">							<div class="sys-sm-item sys-smi-profile bx-def-margin-sec-left-auto" onclick="javascript:oBxEvoServiceMenu.showMenu(this);">				<div class="sys-sm-profile">					<span class="sys-smp-thumbnail">												
+							<i class="sys-icon user"></i>											</span>					<span class="sys-smp-title bx-def-margin-sec-left">MasterStone</span>				</div>	            <span class="sys-sm-item">	            	<i class="sys-icon chevron-down"></i>	            </span>
+	            <div id="sys-service-menu-1522187105"  class="sys-sm-item-submenu"><div class="popup_form_wrapper trans_box">    <div class="container bx-def-border bx-def-round-corners">        <div class="sys-sm-item-submenu-cnt clearfix">	<div class="sys-service-menu-profile">		<div class="thumbnail_block  thumbnail_block_icon" style="float:left;">	<div class="thumbnail_image" onmouseover="javascript:startUserInfoTimer(1764, this)" onmouseout="javascript:stopUserInfoTimer(1764)">		<a href="https://kinkeacademy.com/MasterStone" title="MasterStone">			            				<p class="thumbnail_image_letter bx-def-border bx-def-thumbnail bx-def-shadow">M</p>
+                        <i class="sys-online-offline sys-icon circle sys-status-online" title="Online"></i>		</a>	</div>	    <div class="clear_both"></div></div>					<div class="profile_block"><a href="https://kinkeacademy.com/MasterStone">MasterStone</a></div>			</div>
+	<div class="sys-service-menu">            <div class="sys-sm-link">            <a class="sys-sm-link" href="member.php"   title="Account">            	<i class="sys-icon tachometer"></i><span>Account</span>            </a>        </div>            <div class="sys-sm-link">            <a class="sys-sm-link" href="pedit.php?ID=1764"   title="Settings">
+            	<i class="sys-icon cog"></i><span>Settings</span>            </a>        </div>            <div class="sys-sm-link">            <a class="sys-sm-link" href="logout.php?action=member_logout"   title="Logout">            	<i class="sys-icon sign-out"></i><span>Logout</span>            </a>        </div>
+    </div></div>    </div></div></div>	        </div>			</div>	<script type="text/javascript">		function BxEvoServiceMenu(oOptions) {			this._sMenuPopupId = oOptions.sMenuPopup == undefined ? 'sys-service-menu' : oOptions.sMenuPopup;
+	    }		BxEvoServiceMenu.prototype.showSearch = function() {			if($('#sys_search input[name="keyword"]').val().length > 2)				$('#sys_search form')[0].submit();		};		BxEvoServiceMenu.prototype.showMenu = function(oLink) {
+			$(oLink).find('.sys-sm-item > .sys-icon').toggleClass('chevron-down').toggleClass('chevron-up');			$('#' + this._sMenuPopupId).dolPopup({	    		pointer:{	    			el:$(oLink)	    		},	        }); 		    };
+	    var oBxEvoServiceMenu = new BxEvoServiceMenu({	    	sMenuPopup: 'sys-service-menu-1522187105'	    });	</script></div></div>-->
+              <!--</tr>
+    			</table>--> </div>
+          </div>
+        </div>
+        <!-- end of top -->
+        <div class="sys_main_content sys_main_page_width">
+          <div class="sys_mc_wrapper bx-def-margin-sec-leftright">
+            <div class="sys_mc clearfix">
+              <!--[if lt IE 8]>
+                <div style="background-color:#fcc" class="bx-def-border bx-def-margin-top bx-def-padding bx-def-font-large">                    <b>You are using a subprime browser.</b> <br />                    It may render this site incorrectly. <br />                    Please upgrade to a modern web browser:                     <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a> |                     <a href="http://www.firefox.com" target="_blank">Firefox</a> |                     <a href="http://www.apple.com/safari/download/" target="_blank">Safari</a>                </div>
+                <![endif]-->
+              <!-- body -->
+              <div class="container" style="background: rgba(14,4,5,0.5); padding:10px !important;">
+                <div class="sys_main_menu">
+                  <div class="sys_mm sys_main_page_width">
+                    <div class="sys_mm_cnt bx-def-margin-sec-leftright clearfix">
+                      <div class="">
+                        <div class="menu-button">Menu<span class="touch-button"><i
+                              class="navicon">?</i></span></div>
+                        <ul class="flexnav flexNav-no-touch lg-screen">
+                          <li class="active first"> <a class="top_link" href="https://kinkeacademy.com/index.php">
+                              <span class="down bx-def-padding-sec-leftright">Home</span>
+                            </a> </li>
+                          <li class="item-with-ul"> <a class="top_link" href="https://kinkeacademy.com/m/events/home/">
+                              <span class="down bx-def-padding-sec-leftright">Events</span>
+                            </a>
+                            <ul class="" style="display: none;">
+                              <li class="first"> <a href="https://kinkeacademy.com/m/events/browse/upcoming"
+                                  target="_self" class="button more_ntop_element">Upcoming</a>
+                              </li>
+                              <li> <a href="https://kinkeacademy.com/m/events/browse/featured"
+                                  target="_self" class="button more_ntop_element">Featured</a>
+                              </li>
+                              <li> <a href="https://kinkeacademy.com/m/events/categories"
+                                  target="_self" class="button more_ntop_element">Categories</a>
+                              </li>
+                              <li> <a href="https://kinkeacademy.com/m/events/browse/popular"
+                                  target="_self" class="button more_ntop_element">Popular</a>
+                              </li>
+                              <li> <a href="https://kinkeacademy.com/m/events/search"
+                                  target="_self" class="button more_ntop_element">Search</a>
+                              </li>
+                              <li class="last"> <a href="https://kinkeacademy.com/m/events/calendar"
+                                  target="_self" class="button more_ntop_element">Calendar</a>
+                              </li>
+                            </ul>
+                            <span class="touch-button"><i class="navicon">?</i></span></li>
+                          <li class="item-with-ul"> <a class="top_link" href="https://kinkeacademy.com//m/articles/home/">
+                              <span class="down bx-def-padding-sec-leftright">Kink
+                                101</span> </a>
+                            <ul class="">
+                              <li class="first"> <a href="https://kinkeacademy.com/m/articles/home/"
+                                  target="_self" class="button more_ntop_element">_basics_bdsm</a>
+                              </li>
+                              <li> <a href="https://kinkeacademy.com//b/bond/home/"
+                                  target="_self" class="button more_ntop_element">
+                                  bondage</a> </li>
+                              <li> <a href="https://kinkeacademy.com//m/water/home/"
+                                  target="_self" class="button more_ntop_element">watersports</a>
+                              </li>
+                              <li class="last"> <a href="https://kinkeacademy.com//m/spanking/home/"
+                                  target="_self" class="button more_ntop_element">spanking</a>
+                              </li>
+                            </ul>
+                            <span class="touch-button"><i class="navicon">?</i></span></li>
+                          <li> <a class="top_link" href="https://kinkeacademy.com/m/chat_plus/view/"
+                              target="_blank"> <span class="down bx-def-padding-sec-leftright">Chat</span>
+                            </a> </li>
+                          <li class="item-with-ul"> <a class="top_link" href="https://kinkeacademy.com/m/chat/home/">
+                              <span class="down bx-def-padding-sec-leftright">Chat</span>
+                            </a>
+                            <ul class="">
+                              <li class="first last"> <a href="https://kinkeacademy.com/m/chat/home/"
+                                  target="_self" class="button more_ntop_element">Chat
+                                  Home</a> </li>
+                            </ul>
+                            <span class="touch-button"><i class="navicon">?</i></span></li>
+                          <li> <a class="top_link" href="https://kinkeacademy.com/m/videos/albums/my/main/">
+                              <span class="down bx-def-padding-sec-leftright">Videos</span>
+                            </a> </li>
+                          <li class="item-with-ul"> <a class="top_link" href="https://kinkeacademy.com/search_home.php">
+                              <span class="down bx-def-padding-sec-leftright">Search
+                                Home</span> </a>
+                            <ul class="">
+                              <li class="first"> <a href="https://kinkeacademy.com/search.php?online_only=1"
+                                  target="_self" class="button more_ntop_element">Online</a>
+                              </li>
+                              <li> <a href="https://kinkeacademy.com/search.php"
+                                  target="_self" class="button more_ntop_element">Search</a>
+                              </li>
+                              <li class="last"> <a href="https://kinkeacademy.com/searchKeyword.php?type=bx_videos"
+                                  target="_self" class="button more_ntop_element">Search</a>
+                              </li>
+                            </ul>
+                            <span class="touch-button"><i class="navicon">?</i></span></li>
+                          <li> <a class="top_link" href="https://kinkeacademy.com/m/groups/home/">
+                              <span class="down bx-def-padding-sec-leftright">Groups</span>
+                            </a> </li>
+                          <li class="item-with-ul"> <a class="top_link" href="https://kinkeacademy.com/m/board/home/">
+                              <span class="down bx-def-padding-sec-leftright">Boards</span>
+                            </a>
+                            <ul class="">
+                              <li class="first"> <a href="https://kinkeacademy.com/m/board/home/"
+                                  target="_self" class="button more_ntop_element">Boards
+                                  Home</a> </li>
+                              <li> <a href="https://kinkeacademy.com/m/board/rules/"
+                                  target="_self" class="button more_ntop_element">Rules</a>
+                              </li>
+                              <li class="last"> <a href="https://kinkeacademy.com/m/photos/browse/category/Board"
+                                  target="_self" class="button more_ntop_element">Saved</a>
+                              </li>
+                            </ul>
+                            <span class="touch-button"><i class="navicon">?</i></span></li>
+                          <li class="item-with-ul"> <a class="top_link" href="https://kinkeacademy.com/member.php">
+                              <span class="down bx-def-padding-sec-leftright">Account
+                                Home</span> </a>
+                            <ul class="" style="display: none;">
+                              <li class="first last"> <a href="https://kinkeacademy.com/mail.php?mode=inbox"
+                                  target="_self" class="button more_ntop_element">Inbox</a>
+                              </li>
+                            </ul>
+                            <span class="touch-button"><i class="navicon">?</i></span></li>
+                          <li class="last"> <a class="top_link" href="https://kinkeacademy.com/m/chat_plus/view/">
+                              <span class="down bx-def-padding-sec-leftright">Chat</span>
+                            </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <script type="text/javascript">
+	function BxEvoTopMenu(oOptions){}
+
+	BxEvoTopMenu.prototype.showCaptionSubmenu = function(oLink) {
+		return this.showSubmenu(oLink, 'sys_ph_caption_submenu');
+    };
+
+    BxEvoTopMenu.prototype.showSubmenuSubmenu = function(oLink) {
+    	return this.showSubmenu(oLink, 'sys_ph_submenu_submenu');
+    };
+
+    BxEvoTopMenu.prototype.showSubmenu = function(oLink, sPopupId) {
+    	$('#' + sPopupId).dolPopup({
+    		pointer:{
+    			el:$(oLink)
+    		},
+            onBeforeShow: function() {
+            	$(oLink).find('.sys-icon').removeClass('chevron-down').addClass('chevron-up');
+            },
+            onHide: function() {
+            	$(oLink).find('.sys-icon').addClass('chevron-down').removeClass('chevron-up');
+            }
+        });
+
+    	return false;
+    };
+
+    var oBxEvoTopMenu = new BxEvoTopMenu({});
+</script> <div class="sys_bc bx-def-margin-leftright">
+                  <div class="bc_unit bx-def-margin-sec-left"><a href="https://kinkeacademy.com/">Home</a></div>
+                  <div class="bc_divider bx-def-margin-sec-left">›</div>
+                  <div class="bc_unit bx-def-margin-sec-left">Home</div>
+                  <div class="bc_addons"></div>
+                </div>
+                <!--  -->
+                <div class="sys_page sys_page_index clearfix">
+                  <div class="page_column page_column_first page_column_first_width_41_2"
+                    id="page_column_1">
+                    <div class="page_block_container bx-def-margin-sec-leftright"
+                      id="page_block_624">
+                      <div class="disignBoxFirst bx-def-margin-top bx-def-border">
+                        <div class="boxContent clearfix">
+                          <div class="dbContentHtml">
+                            <p style="text-align: right;"><img src="Kink%20E%20Academy_files/333.jpg"
+                                alt="" style="width: 402px; height: 607px;"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_column page_column_last page_column_last_width_58_8"
+                    id="page_column_2">
+                    <div class="page_block_container bx-def-margin-sec-leftright"
+                      id="page_block_626">
+                      <div class="disignBoxFirst bx-def-margin-top bx-def-border">
+                        <div class="boxContent clearfix">
+                          <div class="dbContentHtml">
+                            <p style="text-align: center;">&nbsp;</p>
+                            <p style="text-align: center;"><span style="font-size: large;"><u><strong>Welcome
+                                    to the Academy !</strong></u></span></p>
+                            <h1 style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</h1>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;"><span
+                                style="font-size: medium;"><strong>What makes us
+                                  different </strong></span>? First, we are
+                              kinky gay and bisexual men, not a group of
+                              developers or an Internet marketing company. Real
+                              members of the Queer Kink community. As such, this
+                              site has been developed without spacing for ads
+                              and promotions. We aren't interested in selling
+                              you goods or services from an outside source for
+                              the sake of making a buck. We are in the process
+                              of making sure the things you may want or need to
+                              fully enjoy the practices we explore available to
+                              our members, but only quality products at a good
+                              price. Until that time, feel free to share with us
+                              and the community product information you feel are
+                              worth mentioning, be that good or bad and why. As
+                              for connections, we are not a hook up site. Our
+                              goal isn’t to get you laid, is to get to you
+                              educated so you can find, develop, and maintain a
+                              healthy kink relationship. We do encourage
+                              interactions between our members because let's
+                              face it, if we could do all this alone we wouldn't
+                              be here.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;"><strong><span
+                                  style="font-size: medium;"><u>No Stance is a
+                                    Stance<br>
+                                    <br>
+                                  </u></span></strong></p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;"><span
+                                style="font-size: medium;"><strong>There are
+                                  issues</strong></span> that are the focus of
+                              many websites and real time companies and
+                              agencies. We are not the sex police, and there are
+                              no Sex Crimes (thank you Annie Lennox) The issues
+                              of PNP and Safe Sex are not addressed in our
+                              profile section, nor are they singled out as
+                              fetishes of kinks. It is out position that while
+                              community education is important, it is not our
+                              area. We neither condone nor admonish a<span style="font-size: medium;"><u>ny</u></span>one’s
+                              personal decisions in these matters. If you need
+                              further information on these or other concerns,
+                              please contact your local service agency, or if
+                              none is available, a member of the staff here
+                              would attempt to offer any suggestion they can
+                              find.</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;"><strong><span
+                                  style="font-size: medium;"><u>Play Ball</u></span></strong></p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;"><span
+                                style="font-size: medium;"><strong>We are here
+                                  to educate </strong></span>the community how
+                              to have a hot kinky experience / life in the right
+                              way. Kink involves many levels; mental, physical,
+                              emotional, etc. Our focus is primarily technical,
+                              teaching techniques from basic to advanced.
+                              However, within the site you will find information
+                              and tools for making the best experience on all
+                              levels. </p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <p style="margin-bottom: 0in; line-height: 100%; text-align: center;">&nbsp;</p>
+                            <h2 style="margin-bottom: 0in; line-height: 100%; text-align: center;"><span
+                                style="color: #ff0000;">Master
+                                Stone,&nbsp;&nbsp;&nbsp; Dean, Kink E Academy</span></h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_column page_column_full page_column_full_width_100"
+                    id="page_column_3"></div>
+                  <div class="page_column page_column_first page_column_first_width_41_2"
+                    id="page_column_4">
+                    <div class="page_block_container bx-def-margin-sec-leftright"
+                      id="page_block_328">
+                      <div class="disignBoxFirst bx-def-margin-top bx-def-border">
+                        <div class="boxContent bx-def-bc-margin clearfix">
+                          <div class="dbContentHtml"> -
+                            <p> </p>
+                            <h1 style="text-align: center;"><span style="text-decoration: underline;">What
+                                We Offer&nbsp;</span></h1>
+                            <p style="width: 564px;">&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p><br>
+                            </p>
+                            <h4>Here we are offering instruction and techniques
+                              on how to fulfill the kinks within. To achieve
+                              this, we offer Live streamed demonstrations of
+                              various kinks from bondage to CBT and assplay. In
+                              addition we are developing an ever growing
+                              collection of information on variations,
+                              techniques, best practices, and the chance to meet
+                              others with the same interests...both for practice
+                              and actual scene.</h4>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <h4>Our site offers Video instant messaging, Role
+                              Play Matching, and apps that can walk you through
+                              new or complicated scenarios. </h4>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page_column page_column_last page_column_last_width_58_8"
+                    id="page_column_5">
+                    <div class="page_block_container bx-def-margin-sec-leftright"
+                      id="page_block_650">
+                      <div class="disignBoxFirst bx-def-margin-top bx-def-border">
+                        <div class="boxContent bx-def-bc-margin clearfix">
+                          <div class="dbContentHtml">
+                            <p></p>
+                            <div style="text-align: right; margin-left: 127px;"><img
+                                src="Kink%20E%20Academy_files/AdobeStock_40883326.jpg"
+                                alt="" style="width: 377px; height: 508px; margin-left: 77px;"></div>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear_both"></div>
+              </div>
+            </div>
+            <!-- end of body --> </div>
+          <!--<div class="sys_footer">
+	    	    <div class="sys_breadcrumb sys_main_page_width bx-def-margin-top">	       <div class="sys_bc_wrapper bx-def-margin-sec-leftright bx-def-round-corners bx-def-border clearfix">	                  	            <div class="sys_bc bx-def-margin-leftright"><div class="bc_unit bx-def-margin-sec-left"><a href="https://kinkeacademy.com/">Home</a></div><div class="bc_divider bx-def-margin-sec-left">&#8250;</div><div class="bc_unit bx-def-margin-sec-left">Home</div><div class="bc_addons"></div></div>	            	        </div>	    </div>	    -->
+          <div class="sys_copyright sys_main_page_width bx-def-margin-top">
+            <div class="sys_cr_wrapper bx-def-margin-sec-leftright bx-def-round-corners bx-def-border">
+              <div class="sys_cr bx-def-margin-leftright clearfix">
+                <div class="bottom-menu bottomLinks bx-def-margin-sec-right span8">
+                  <span class="bx-def-margin-sec-left"> <a class="bottom_links_block"
+                      href="javascript:void(0)" onclick="return launchTellFriend();">Invite
+                      a Friend</a> </span> <span class="bx-def-margin-sec-left">
+                    <a class="bottom_links_block" href="https://kinkeacademy.com/privacy.php">Privacy</a>
+                  </span> <span class="bx-def-margin-sec-left"> <a class="bottom_links_block"
+                      href="https://kinkeacademy.com/terms_of_use.php">Terms</a>
+                  </span> <span class="bx-def-margin-sec-left"> <a class="bottom_links_block"
+                      href="https://kinkeacademy.com/faq.php">FAQ</a> </span> <span
+                    class="bx-def-margin-sec-left"> <a class="bottom_links_block"
+                      href="https://kinkeacademy.com/contact.php">Contact Us</a>
+                  </span> </div>
+                <div class="copy bottomCpr span4">© (2017) KinkEAcademy<!-- 7 54 3 33 5 --></div>
+              </div>
+            </div>
+          </div>
+          <div id="bx_attr" class="bx-def-round-corners" style="display:none;"></div>
+          <script>
+        $(document).ready(function() {
+            bx_attr(jQuery('#bx_attr'), '', 'POWERED BY<br /><strong>DOLPHIN.PRO</strong>');
+        });
+    </script> </div>
+      </div>
+    </div>
+    <div id="bx-popup-confirm" class="bx-def-z-index-modal" style="display:none;">
+      <div class="popup_form_wrapper trans_box">
+        <div class="container bx-def-border bx-def-round-corners">
+          <div class="popup_confirm_text bx-def-padding">Are you sure?</div>
+          <div class="popup_confirm_actions bx-def-padding-rightbottomleft clearfix">
+            <button class="bx-btn popup_confirm_yes" type="button">Yes</button>
+            <button class="bx-btn popup_confirm_no" type="button">No</button> </div>
+        </div>
+      </div>
+    </div>
+    <div id="bx-popup-prompt" class="bx-def-z-index-modal" style="display:none;">
+      <div class="popup_form_wrapper trans_box">
+        <div class="container bx-def-border bx-def-round-corners">
+          <div class="popup_prompt_text bx-def-padding-lefttopright">Please,
+            enter a value here</div>
+          <div class="popup_prompt_input bx-def-padding">
+            <div class="input_wrapper input_wrapper_text clearfix"> <input class="form_input_text bx-def-font-inputs"
+                name="bx-popup-prompt-value" type="text"> </div>
+          </div>
+          <div class="popup_prompt_actions bx-def-padding-rightbottomleft clearfix">
+            <button class="bx-btn popup_prompt_ok" type="button">OK</button> <button
+              class="bx-btn popup_prompt_cancel" type="button">Cancel</button> </div>
+        </div>
+      </div>
+    </div>
+    <!--end nightclub-->
+    <style type="text/css">
+
+</style> <script type="text/javascript">
+$(document).ready(function(){
+	$( ".extra_top_menu" ).parents(".bx-def-font").css( "margin-bottom", "50px" );
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+</script> </body>
+</html>
